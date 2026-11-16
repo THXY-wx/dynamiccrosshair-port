@@ -1,0 +1,17 @@
+Dynamic Crosshair 1.7.10 automated test
+states=15
+state-0-air-empty hit=MISS state=CrosshairState{NONE, NONE} show=false
+state-1-block-empty hit=BLOCK state=CrosshairState{ON_BLOCK, NONE} show=true
+state-2-chest-empty hit=BLOCK state=CrosshairState{ON_BLOCK, CAN_INTERACT} show=true
+state-3-block-pickaxe hit=BLOCK state=CrosshairState{HOLDING_TOOL, NONE, correct} show=true
+state-4-air-sword hit=MISS state=CrosshairState{NONE, HOLDING_MELEE} show=true
+state-5-air-block hit=MISS state=CrosshairState{NONE, HOLDING_BLOCK} show=true
+state-6-air-food hit=MISS state=CrosshairState{NONE, HOLDING_USABLE} show=true
+state-7-entity-empty hit=ENTITY:EntityCow state=CrosshairState{ON_ENTITY, CAN_INTERACT} show=true
+state-8-air-bow-drawing hit=MISS state=CrosshairState{NONE, HOLDING_RANGED} show=true
+state-9-bobbing-on hit=MISS state=CrosshairState{HOLDING_TOOL, NONE} show=true
+state-10-bobbing-off hit=MISS state=CrosshairState{HOLDING_TOOL, NONE} show=true
+state-11-attack-animation hit=MISS state=CrosshairState{NONE, HOLDING_MELEE} show=true
+state-12-place-shake hit=MISS state=CrosshairState{NONE, HOLDING_BLOCK} show=true
+state-13-tic-crossbow hit=MISS state=CrosshairState{NONE, NONE} show=false
+state-14-config-gui hit=MISS state=CrosshairState{NONE, NONE} show=false

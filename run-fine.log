@@ -1,0 +1,281 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.7.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Caught exception: Couldn't open current thread, error = 5
+Exception in thread "File watcher server" net.rubygrapefruit.platform.NativeException: Couldn't open current thread, error = 5
+	at org.gradle.fileevents.internal.AbstractNativeFileEventFunctions$NativeFileWatcher.initializeRunLoop0(Native Method)
+	at org.gradle.fileevents.internal.AbstractNativeFileEventFunctions$NativeFileWatcher.initializeRunLoop(AbstractNativeFileEventFunctions.java:25)
+	at org.gradle.fileevents.internal.AbstractFileEventFunctions$AbstractFileWatcher$1.run(AbstractFileEventFunctions.java:151)
+
+> Configure project :
+You might want to check out './gradlew :faq' if your build fails.
+
+> Task :downloadAssetManifest SKIPPED
+> Task :downloadVanillaAssets UP-TO-DATE
+> Task :extractNatives2 UP-TO-DATE
+> Task :compileInjectedInterfacesJava NO-SOURCE
+> Task :extractDependencyATs SKIPPED
+> Task :generateForgeSrgMappings SKIPPED
+> Task :downloadVanillaJars SKIPPED
+> Task :mergeVanillaSidedJars SKIPPED
+> Task :deobfuscateMergedJarToSrg SKIPPED
+> Task :downloadFernflower SKIPPED
+> Task :decompileSrgJar SKIPPED
+> Task :cleanupDecompSrgJar SKIPPED
+> Task :patchDecompiledJar SKIPPED
+> Task :applyJST SKIPPED
+> Task :remapDecompiledJar SKIPPED
+> Task :decompressDecompiledSources UP-TO-DATE
+> Task :processInjectedInterfacesResources NO-SOURCE
+> Task :injectedInterfacesClasses UP-TO-DATE
+> Task :compilePatchedMcJava UP-TO-DATE
+> Task :processPatchedMcResources UP-TO-DATE
+> Task :patchedMcClasses UP-TO-DATE
+> Task :compileApiJava NO-SOURCE
+> Task :processApiResources NO-SOURCE
+> Task :apiClasses UP-TO-DATE
+> Task :injectTags UP-TO-DATE
+> Task :compileInjectedTagsJava UP-TO-DATE
+> Task :createMcLauncherFiles UP-TO-DATE
+> Task :compileMcLauncherJava UP-TO-DATE
+> Task :processInjectedTagsResources NO-SOURCE
+> Task :injectedTagsClasses UP-TO-DATE
+> Task :processMcLauncherResources NO-SOURCE
+> Task :mcLauncherClasses UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :jar UP-TO-DATE
+> Task :packageMcLauncher UP-TO-DATE
+> Task :packagePatchedMc UP-TO-DATE
+
+> Task :runClient
+[16:13:26] [main/INFO] [GradleStart]: userProperties: {}
+[16:13:26] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[16:13:26] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[16:13:26] [main/INFO] [GradleStart]: accessToken: 0
+[16:13:26] [main/INFO] [GradleStart]: version: 1.7.10
+[16:13:26] [main/INFO] [GradleStart]: username: Developer
+[16:13:26] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[16:13:26] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[16:13:26] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:13:26] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:13:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[16:13:26] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[16:13:26] [main/INFO] [FML]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[16:13:26] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_504, running on Windows 11:amd64:10.0, installed at C:\Users\Administrator\.jdks\azul-1.8.0_504\jre
+[16:13:26] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[16:13:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[16:13:26] [main/INFO] [GradleStart]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
+[16:13:26] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[16:13:26] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:13:26] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:13:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[16:13:26] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:13:26] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:13:26] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:13:26] [main/ERROR] [FML]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[16:13:26] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[16:13:26] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:13:26] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:13:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[16:13:27] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[16:13:27] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[16:13:27] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[16:13:27] [main/INFO]: Setting user: Developer
+[16:13:28] [Client thread/INFO]: LWJGL Version: 2.9.4
+[16:13:28] [Client thread/INFO] [STDOUT]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 26-11-15 下午4:13
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 1.8.0_504, Azul Systems, Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Azul Systems, Inc.
+	Memory: 888652904 bytes (847 MB) / 1029177344 bytes (981 MB) up to 5726797824 bytes (5461 MB)
+	JVM Flags: 2 total; -Xms1G -Xmx6G
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 610.88' Renderer: 'NVIDIA GeForce RTX 3050/PCIe/SSE2'
+[16:13:28] [Client thread/INFO] [MinecraftForge]: Attempting early MinecraftForge initialization
+[16:13:28] [Client thread/INFO] [FML]: MinecraftForge v10.13.4.1614 Initialized
+[16:13:28] [Client thread/INFO] [FML]: Replaced 183 ore recipies
+[16:13:28] [Client thread/INFO] [MinecraftForge]: Completed early MinecraftForge initialization
+[16:13:28] [Client thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[16:13:28] [Client thread/INFO] [FML]: Searching E:\deepseek\工作区1\dynamiccrosshair-port\run\client\mods for mods
+[16:13:31] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[16:13:31] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, dynamiccrosshair, crosshairselection] at CLIENT
+[16:13:31] [Client thread/INFO] [FML]: Attempting connection with missing mods [mcp, FML, Forge, dynamiccrosshair, crosshairselection] at SERVER
+[16:13:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Dynamic Crosshair, FMLFileResourcePack:Crosshair-Selection (test stub)
+[16:13:31] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[16:13:31] [Client thread/INFO] [FML]: Found 341 ObjectHolder annotations
+[16:13:31] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[16:13:31] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[16:13:31] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[16:13:31] [Client thread/INFO] [FML]: Applying holder lookups
+[16:13:31] [Client thread/INFO] [FML]: Holder lookups applied
+[16:13:31] [Client thread/INFO] [FML]: Injecting itemstacks
+[16:13:31] [Client thread/INFO] [FML]: Itemstack injection complete
+[16:13:31] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:13:31] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[16:13:31] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[16:13:31] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:13:31] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:errorMessage:131]: Error in class 'LibraryLWJGLOpenAL'
+[16:13:31] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:errorMessage:132]:     Unable to initialize OpenAL.  Probable cause: OpenAL not supported.
+[16:13:31] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     ERROR MESSAGE:
+[16:13:31] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Could not locate OpenAL library.
+[16:13:31] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     STACK TRACE:
+[16:13:31] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         org.lwjgl.openal.AL.create(AL.java:156)
+[16:13:31] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         org.lwjgl.openal.AL.create(AL.java:102)
+[16:13:31] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         org.lwjgl.openal.AL.create(AL.java:206)
+[16:13:31] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         paulscode.sound.libraries.LibraryLWJGLOpenAL.init(LibraryLWJGLOpenAL.java:164)
+[16:13:31] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         paulscode.sound.SoundSystem.CommandNewLibrary(SoundSystem.java:1576)
+[16:13:31] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         paulscode.sound.SoundSystem.CommandQueue(SoundSystem.java:2572)
+[16:13:31] [Thread-8/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         paulscode.sound.CommandThread.run(CommandThread.java:121)
+[16:13:32] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[16:13:32] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[16:13:32] [Client thread/INFO] [FML]: Injecting itemstacks
+[16:13:32] [Client thread/INFO] [FML]: Itemstack injection complete
+[16:13:32] [Client thread/INFO] [dynamiccrosshair]: Dynamic Crosshair test harness loaded (flag file: dynamiccrosshair-test.flag)
+[16:13:32] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[16:13:32] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Dynamic Crosshair, FMLFileResourcePack:Crosshair-Selection (test stub)
+[16:13:32] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     ERROR MESSAGE:
+[16:13:32] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Could not locate OpenAL library.
+[16:13:32] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:13:32] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[16:13:32] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[16:13:32] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[16:13:32] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:13:32] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[16:13:32] [Client thread/INFO] [dynamiccrosshair]: Crosshair-Selection detected; colour/flow bridge active (mode AUTO)
+[16:13:32] [Thread-10/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Switching to No Sound
+[16:13:32] [Thread-10/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (Silent Mode)
+[16:13:32] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
+[16:13:32] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:13:32] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:errorMessage:131]: Error in class 'LibraryLWJGLOpenAL'
+[16:13:32] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:errorMessage:132]:     Unable to initialize OpenAL.  Probable cause: OpenAL not supported.
+[16:13:32] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     ERROR MESSAGE:
+[16:13:32] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Could not locate OpenAL library.
+[16:13:32] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     STACK TRACE:
+[16:13:32] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         org.lwjgl.openal.AL.create(AL.java:156)
+[16:13:32] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         org.lwjgl.openal.AL.create(AL.java:102)
+[16:13:32] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         org.lwjgl.openal.AL.create(AL.java:206)
+[16:13:32] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         paulscode.sound.libraries.LibraryLWJGLOpenAL.init(LibraryLWJGLOpenAL.java:164)
+[16:13:32] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         paulscode.sound.SoundSystem.CommandNewLibrary(SoundSystem.java:1576)
+[16:13:32] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         paulscode.sound.SoundSystem.CommandQueue(SoundSystem.java:2572)
+[16:13:32] [Thread-11/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         paulscode.sound.CommandThread.run(CommandThread.java:121)
+[16:13:32] [Client thread/INFO] [dynamiccrosshair]: Dynamic Crosshair test harness armed
+[16:13:33] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     ERROR MESSAGE:
+[16:13:33] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     ERROR MESSAGE:
+[16:13:33] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Could not locate OpenAL library.
+[16:13:33] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:         Could not locate OpenAL library.
+[16:13:33] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:13:33] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
+[16:13:33] [Sound Library Loader/INFO]: Sound engine started
+[16:13:33] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[16:13:33] [Server thread/INFO]: Generating keypair
+[16:13:33] [Server thread/INFO]: Converting map!
+[16:13:33] [Server thread/INFO]: Scanning folders...
+[16:13:33] [Server thread/INFO]: Total conversion count is 0
+[16:13:33] [Server thread/INFO] [FML]: Injecting existing block and item data into this server instance
+[16:13:33] [Server thread/INFO] [FML]: Applying holder lookups
+[16:13:33] [Server thread/INFO] [FML]: Holder lookups applied
+[16:13:33] [Thread-14/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: Switching to No Sound
+[16:13:33] [Thread-14/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]:     (Silent Mode)
+[16:13:33] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+[16:13:33] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:815)
+[16:13:33] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:768)
+[16:13:33] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:717)
+[16:13:33] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:689)
+[16:13:33] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at net.minecraftforge.common.ForgeVersion$1.run(ForgeVersion.java:94)
+[16:13:33] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+[16:13:33] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+[16:13:33] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183)
+[16:13:33] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+[16:13:33] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:803)
+[16:13:33] [Forge Version Check/INFO] [STDERR]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	... 4 more
+[16:13:33] [Sound Library Loader/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:13:33] [Sound Library Loader/INFO]: Sound engine started
+[16:13:33] [Server thread/INFO] [FML]: Loading dimension 0 (Dynamic Crosshair AutoTest) (net.minecraft.server.integrated.IntegratedServer@1d422347)
+[16:13:33] [Server thread/INFO] [FML]: Loading dimension 1 (Dynamic Crosshair AutoTest) (net.minecraft.server.integrated.IntegratedServer@1d422347)
+[16:13:33] [Server thread/INFO] [FML]: Loading dimension -1 (Dynamic Crosshair AutoTest) (net.minecraft.server.integrated.IntegratedServer@1d422347)
+[16:13:33] [Server thread/INFO]: Preparing start region for level 0
+[16:13:33] [Server thread/INFO]: Changing view distance to 12, from 10
+[16:13:34] [Netty Client IO #0/INFO] [FML]: Server protocol version 2
+[16:13:34] [Netty IO #1/INFO] [FML]: Client protocol version 2
+[16:13:34] [Netty IO #1/INFO] [FML]: Client attempting to join with 5 mods : FML@7.10.99.99,Forge@10.13.4.1614,mcp@9.05,dynamiccrosshair@1.1.0,crosshairselection@1.0
+[16:13:34] [Netty IO #1/INFO] [FML]: Attempting connection with missing mods [] at CLIENT
+[16:13:34] [Netty Client IO #0/INFO] [FML]: Attempting connection with missing mods [] at SERVER
+[16:13:34] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[16:13:34] [Server thread/INFO]: Developer[local:E:1dcd6eb3] logged in with entity id 0 at (-769.5, 4.0, -2000.5)
+[16:13:34] [Server thread/INFO]: Developer 加入了游戏
+[16:13:34] [Client thread/INFO] [FML]: [Client thread] Client side modded connection established
+[16:13:34] [Client thread/INFO] [dynamiccrosshair]: Test scene built at -770,5,-2001
+[16:13:34] [Client thread/INFO] [dynamiccrosshair]: Test world ready at -769,5,-2000
+[16:13:34] [Client thread/INFO] [dynamiccrosshair]: Screenshot saved: state-0-air-empty hit=MISS state=CrosshairState{NONE, NONE} show=false
+[16:13:34] [Client thread/INFO] [dynamiccrosshair]: Bobbing transform dx=0.0 dy=-2.3050642E-8 rotation=0.0 scale=1.0/1.0
+[16:13:34] [Client thread/WARN] [dynamiccrosshair]: Vector renderer unavailable, using pixel sprites: java.lang.IllegalStateException: crosshair shader compile failed
+[16:13:35] [Client thread/INFO] [dynamiccrosshair]: Screenshot saved: state-1-block-empty hit=BLOCK state=CrosshairState{ON_BLOCK, NONE} show=true
+[16:13:35] [Client thread/INFO] [dynamiccrosshair]: Bobbing transform dx=0.0 dy=-9.4415374E-17 rotation=0.0 scale=1.0/1.0
+[16:13:36] [Client thread/INFO] [dynamiccrosshair]: Screenshot saved: state-2-chest-empty hit=BLOCK state=CrosshairState{ON_BLOCK, CAN_INTERACT} show=true
+[16:13:36] [Client thread/INFO] [dynamiccrosshair]: Bobbing transform dx=0.0 dy=-3.86725E-25 rotation=0.0 scale=1.0/1.0
+[16:13:36] [Client thread/INFO] [dynamiccrosshair]: Screenshot saved: state-3-block-pickaxe hit=BLOCK state=CrosshairState{HOLDING_TOOL, NONE, correct} show=true
+[16:13:36] [Client thread/INFO] [dynamiccrosshair]: Bobbing transform dx=0.0 dy=-1.5840247E-33 rotation=0.0 scale=1.0/1.0
+[16:13:37] [Client thread/INFO] [dynamiccrosshair]: Screenshot saved: state-4-air-sword hit=MISS state=CrosshairState{NONE, HOLDING_MELEE} show=true
+[16:13:37] [Client thread/INFO] [dynamiccrosshair]: Bobbing transform dx=0.0 dy=-6.726E-42 rotation=0.0 scale=1.0/1.0
+[16:13:38] [Client thread/INFO] [dynamiccrosshair]: Screenshot saved: state-5-air-block hit=MISS state=CrosshairState{NONE, HOLDING_BLOCK} show=true
+[16:13:38] [Client thread/INFO] [dynamiccrosshair]: Bobbing transform dx=0.0 dy=0.0 rotation=0.0 scale=1.0/1.0
+[16:13:38] [Client thread/INFO] [dynamiccrosshair]: Screenshot saved: state-6-air-food hit=MISS state=CrosshairState{NONE, HOLDING_USABLE} show=true
+[16:13:38] [Client thread/INFO] [dynamiccrosshair]: Bobbing transform dx=0.0 dy=0.0 rotation=0.0 scale=1.0/1.0
+[16:13:39] [Client thread/INFO] [dynamiccrosshair]: Screenshot saved: state-7-entity-empty hit=ENTITY:EntityCow state=CrosshairState{ON_ENTITY, CAN_INTERACT} show=true
+[16:13:39] [Client thread/INFO] [dynamiccrosshair]: Bobbing transform dx=0.0 dy=0.0 rotation=0.0 scale=1.0/1.0
+[16:13:40] [Client thread/INFO] [dynamiccrosshair]: Screenshot saved: state-8-air-bow-drawing hit=MISS state=CrosshairState{NONE, HOLDING_RANGED} show=true
+[16:13:40] [Client thread/INFO] [dynamiccrosshair]: Bobbing transform dx=0.0 dy=0.0 rotation=0.0 scale=1.0/1.0
+[16:13:40] [Client thread/INFO] [dynamiccrosshair]: Screenshot saved: state-9-bobbing-on hit=MISS state=CrosshairState{HOLDING_TOOL, NONE} show=true
+[16:13:40] [Client thread/INFO] [dynamiccrosshair]: Bobbing transform dx=12.842358 dy=7.208285 rotation=0.0 scale=1.0/1.0
+[16:13:41] [Client thread/INFO] [dynamiccrosshair]: Screenshot saved: state-10-bobbing-off hit=MISS state=CrosshairState{HOLDING_TOOL, NONE} show=true
+[16:13:41] [Client thread/INFO] [dynamiccrosshair]: Bobbing transform dx=0.0 dy=0.0 rotation=0.0 scale=1.0/1.0
+[16:13:41] [Client thread/INFO] [dynamiccrosshair]: Attack animation triggered for the test
+[16:13:41] [Client thread/INFO] [dynamiccrosshair]: Screenshot saved: state-11-attack-animation hit=MISS state=CrosshairState{NONE, HOLDING_MELEE} show=true
+[16:13:41] [Client thread/INFO] [dynamiccrosshair]: Bobbing transform dx=1.2218559 dy=3.758701 rotation=14.403617 scale=1.5447947/1.5447947
+[16:13:41] [Client thread/INFO] [dynamiccrosshair]: Screenshot saved: state-12-place-shake hit=MISS state=CrosshairState{NONE, HOLDING_BLOCK} show=true
+[16:13:41] [Client thread/INFO] [dynamiccrosshair]: Bobbing transform dx=3.3971555 dy=3.624696 rotation=-8.826698 scale=1.0456507/1.0456507
+[16:13:42] [Client thread/INFO] [dynamiccrosshair]: Screenshot saved: state-13-tic-crossbow hit=MISS state=CrosshairState{NONE, NONE} show=false
+[16:13:42] [Client thread/INFO] [dynamiccrosshair]: Bobbing transform dx=0.0016017427 dy=0.004908967 rotation=0.0 scale=1.0/1.0
+[16:13:42] [Client thread/INFO] [dynamiccrosshair]: Screenshot saved: state-14-config-gui hit=MISS state=CrosshairState{NONE, NONE} show=false
+[16:13:42] [Client thread/INFO] [dynamiccrosshair]: Bobbing transform dx=3.4866614E-6 dy=1.068575E-5 rotation=0.0 scale=1.0/1.0
+[16:13:42] [Client thread/INFO] [dynamiccrosshair]: Dynamic Crosshair test finished, shutting down
+[16:13:43] [Client thread/INFO]: Stopping!
+[16:13:43] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:13:43] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
+[16:13:43] [Server thread/INFO]: Stopping server
+[16:13:43] [Server thread/INFO]: Saving players
+[16:13:43] [Server thread/INFO]: Saving worlds
+[16:13:43] [Server thread/INFO]: Saving chunks for level 'Dynamic Crosshair AutoTest'/Overworld
+[16:13:43] [Server thread/INFO]: Saving chunks for level 'Dynamic Crosshair AutoTest'/Nether
+[16:13:43] [Server thread/INFO]: Saving chunks for level 'Dynamic Crosshair AutoTest'/The End
+[16:13:43] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
+[16:13:43] [Client thread/INFO] [STDOUT]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[16:13:43] [Client Shutdown Thread/INFO]: Stopping server
+[16:13:43] [Client Shutdown Thread/INFO]: Saving players
+
+[Incubating] Problems report is available at: file:///E:/deepseek/%E5%B7%A5%E4%BD%9C%E5%8C%BA1/dynamiccrosshair-port/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.7.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 31s
+15 actionable tasks: 1 executed, 14 up-to-date

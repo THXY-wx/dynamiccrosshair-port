@@ -1,0 +1,6 @@
+/*
+ * Dynamic Crosshair 1.7.10 port. No hard dependencies: works on vanilla Forge 1.7.10 and on GTNH 2.9.0.
+ * Optional compatibility is implemented with reflection so nothing needs to be present at compile time.
+ */
+dependencies {
+}

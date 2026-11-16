@@ -1,0 +1,696 @@
+[19:26:42] [main/INFO] [GradleStart]: userProperties: {}
+[19:26:43] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[19:26:43] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:26:43] [main/INFO] [GradleStart]: accessToken: 0
+[19:26:43] [main/INFO] [GradleStart]: version: 1.7.10
+[19:26:43] [main/INFO] [GradleStart]: username: Developer
+[19:26:43] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[19:26:43] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:26:43] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:26:43] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:26:43] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:26:43] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:27:12] [main/INFO] [GradleStart]: userProperties: {}
+[19:27:12] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[19:27:12] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:27:12] [main/INFO] [GradleStart]: accessToken: 0
+[19:27:12] [main/INFO] [GradleStart]: version: 1.7.10
+[19:27:12] [main/INFO] [GradleStart]: username: Developer
+[19:27:12] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[19:27:12] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:27:12] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:27:12] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:27:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:27:12] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:29:14] [main/INFO] [GradleStart]: userProperties: {}
+[19:29:14] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[19:29:14] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:29:14] [main/INFO] [GradleStart]: accessToken: 0
+[19:29:14] [main/INFO] [GradleStart]: version: 1.7.10
+[19:29:14] [main/INFO] [GradleStart]: username: Developer
+[19:29:14] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[19:29:14] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:29:14] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:29:14] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:29:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:29:14] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:34:50] [main/INFO] [GradleStart]: userProperties: {}
+[19:34:50] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[19:34:50] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:34:50] [main/INFO] [GradleStart]: accessToken: 0
+[19:34:50] [main/INFO] [GradleStart]: version: 1.7.10
+[19:34:50] [main/INFO] [GradleStart]: username: Developer
+[19:34:50] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[19:34:50] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:34:50] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:34:50] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:34:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:34:50] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:39:43] [main/INFO] [GradleStart]: userProperties: {}
+[19:39:43] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[19:39:43] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:39:43] [main/INFO] [GradleStart]: accessToken: 0
+[19:39:43] [main/INFO] [GradleStart]: version: 1.7.10
+[19:39:43] [main/INFO] [GradleStart]: username: Developer
+[19:39:43] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[19:39:43] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:39:43] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:39:43] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:39:43] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:39:43] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:40:49] [main/INFO] [GradleStart]: userProperties: {}
+[19:40:49] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[19:40:49] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:40:49] [main/INFO] [GradleStart]: accessToken: 0
+[19:40:49] [main/INFO] [GradleStart]: version: 1.7.10
+[19:40:49] [main/INFO] [GradleStart]: username: Developer
+[19:40:49] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[19:40:49] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:40:49] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:40:49] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:40:49] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:40:49] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:42:32] [main/INFO] [GradleStart]: userProperties: {}
+[19:42:32] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[19:42:32] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:42:32] [main/INFO] [GradleStart]: accessToken: 0
+[19:42:32] [main/INFO] [GradleStart]: version: 1.7.10
+[19:42:32] [main/INFO] [GradleStart]: username: Developer
+[19:42:32] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[19:42:32] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:42:32] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:42:32] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:42:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:42:32] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:43:15] [main/INFO] [GradleStart]: userProperties: {}
+[19:43:15] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[19:43:15] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:43:15] [main/INFO] [GradleStart]: accessToken: 0
+[19:43:15] [main/INFO] [GradleStart]: version: 1.7.10
+[19:43:15] [main/INFO] [GradleStart]: username: Developer
+[19:43:15] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[19:43:15] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:43:15] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:43:15] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:43:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:43:15] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:43:51] [main/INFO] [GradleStart]: userProperties: {}
+[19:43:51] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[19:43:51] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:43:51] [main/INFO] [GradleStart]: accessToken: 0
+[19:43:51] [main/INFO] [GradleStart]: version: 1.7.10
+[19:43:51] [main/INFO] [GradleStart]: username: Developer
+[19:43:51] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[19:43:51] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:43:51] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:43:51] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:43:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:43:51] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:44:52] [main/INFO] [GradleStart]: userProperties: {}
+[19:44:52] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[19:44:52] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:44:52] [main/INFO] [GradleStart]: accessToken: 0
+[19:44:52] [main/INFO] [GradleStart]: version: 1.7.10
+[19:44:52] [main/INFO] [GradleStart]: username: Developer
+[19:44:52] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[19:44:52] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:44:52] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:44:52] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:44:52] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:44:52] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:45:43] [main/INFO] [GradleStart]: userProperties: {}
+[19:45:43] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[19:45:43] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:45:43] [main/INFO] [GradleStart]: accessToken: 0
+[19:45:43] [main/INFO] [GradleStart]: version: 1.7.10
+[19:45:43] [main/INFO] [GradleStart]: username: Developer
+[19:45:43] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[19:45:43] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:45:43] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:45:43] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:45:43] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:45:43] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:47:01] [main/INFO] [GradleStart]: userProperties: {}
+[19:47:01] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[19:47:01] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:47:01] [main/INFO] [GradleStart]: accessToken: 0
+[19:47:01] [main/INFO] [GradleStart]: version: 1.7.10
+[19:47:01] [main/INFO] [GradleStart]: username: Developer
+[19:47:01] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[19:47:01] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:47:01] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:47:01] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:47:01] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:47:01] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:47:55] [main/INFO] [GradleStart]: userProperties: {}
+[19:47:55] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[19:47:55] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:47:55] [main/INFO] [GradleStart]: accessToken: 0
+[19:47:55] [main/INFO] [GradleStart]: version: 1.7.10
+[19:47:55] [main/INFO] [GradleStart]: username: Developer
+[19:47:55] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[19:47:55] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:47:55] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:47:55] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:47:55] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:47:55] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:48:40] [main/INFO] [GradleStart]: userProperties: {}
+[19:48:40] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[19:48:40] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:48:40] [main/INFO] [GradleStart]: accessToken: 0
+[19:48:40] [main/INFO] [GradleStart]: version: 1.7.10
+[19:48:40] [main/INFO] [GradleStart]: username: Developer
+[19:48:40] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[19:48:40] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:48:40] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:48:40] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:48:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:48:40] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:49:08] [main/INFO] [GradleStart]: userProperties: {}
+[19:49:08] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[19:49:08] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:49:08] [main/INFO] [GradleStart]: accessToken: 0
+[19:49:08] [main/INFO] [GradleStart]: version: 1.7.10
+[19:49:08] [main/INFO] [GradleStart]: username: Developer
+[19:49:08] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[19:49:08] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:49:08] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:49:08] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:49:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:49:08] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:50:37] [main/INFO] [GradleStart]: userProperties: {}
+[19:50:37] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[19:50:37] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:50:37] [main/INFO] [GradleStart]: accessToken: 0
+[19:50:37] [main/INFO] [GradleStart]: version: 1.7.10
+[19:50:37] [main/INFO] [GradleStart]: username: Developer
+[19:50:37] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[19:50:37] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:50:37] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:50:37] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:50:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:50:37] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:58:32] [main/INFO] [GradleStart]: userProperties: {}
+[19:58:32] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[19:58:32] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:58:32] [main/INFO] [GradleStart]: accessToken: 0
+[19:58:32] [main/INFO] [GradleStart]: version: 1.7.10
+[19:58:32] [main/INFO] [GradleStart]: username: Developer
+[19:58:32] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[19:58:32] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:58:32] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:58:32] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:58:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:58:32] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[19:59:17] [main/INFO] [GradleStart]: userProperties: {}
+[19:59:17] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[19:59:17] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[19:59:17] [main/INFO] [GradleStart]: accessToken: 0
+[19:59:17] [main/INFO] [GradleStart]: version: 1.7.10
+[19:59:17] [main/INFO] [GradleStart]: username: Developer
+[19:59:17] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[19:59:17] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:59:17] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:59:17] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[19:59:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:59:17] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[20:00:10] [main/INFO] [GradleStart]: userProperties: {}
+[20:00:10] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[20:00:10] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[20:00:10] [main/INFO] [GradleStart]: accessToken: 0
+[20:00:10] [main/INFO] [GradleStart]: version: 1.7.10
+[20:00:10] [main/INFO] [GradleStart]: username: Developer
+[20:00:10] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[20:00:10] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[20:00:10] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[20:00:10] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[20:00:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[20:00:10] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[20:00:39] [main/INFO] [GradleStart]: userProperties: {}
+[20:00:39] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[20:00:39] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[20:00:39] [main/INFO] [GradleStart]: accessToken: 0
+[20:00:39] [main/INFO] [GradleStart]: version: 1.7.10
+[20:00:39] [main/INFO] [GradleStart]: username: Developer
+[20:00:39] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[20:00:39] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[20:00:39] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[20:00:39] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[20:00:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[20:00:39] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[20:01:07] [main/INFO] [GradleStart]: userProperties: {}
+[20:01:07] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[20:01:07] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[20:01:07] [main/INFO] [GradleStart]: accessToken: 0
+[20:01:07] [main/INFO] [GradleStart]: version: 1.7.10
+[20:01:07] [main/INFO] [GradleStart]: username: Developer
+[20:01:07] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[20:01:07] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[20:01:07] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[20:01:07] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[20:01:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[20:01:07] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[20:01:36] [main/INFO] [GradleStart]: userProperties: {}
+[20:01:36] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[20:01:36] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[20:01:36] [main/INFO] [GradleStart]: accessToken: 0
+[20:01:36] [main/INFO] [GradleStart]: version: 1.7.10
+[20:01:36] [main/INFO] [GradleStart]: username: Developer
+[20:01:36] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[20:01:36] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[20:01:36] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[20:01:36] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[20:01:36] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[20:01:36] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:01:17] [main/INFO] [GradleStart]: userProperties: {}
+[21:01:17] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[21:01:17] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[21:01:17] [main/INFO] [GradleStart]: accessToken: 0
+[21:01:17] [main/INFO] [GradleStart]: version: 1.7.10
+[21:01:17] [main/INFO] [GradleStart]: username: Developer
+[21:01:17] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[21:01:17] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[21:01:17] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:01:17] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:01:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[21:01:17] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:05:45] [main/INFO] [GradleStart]: userProperties: {}
+[21:05:45] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[21:05:45] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[21:05:45] [main/INFO] [GradleStart]: accessToken: 0
+[21:05:45] [main/INFO] [GradleStart]: version: 1.7.10
+[21:05:45] [main/INFO] [GradleStart]: username: Developer
+[21:05:45] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[21:05:45] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[21:05:45] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:05:45] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:05:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[21:05:45] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:07:00] [main/INFO] [GradleStart]: userProperties: {}
+[21:07:00] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[21:07:00] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[21:07:00] [main/INFO] [GradleStart]: accessToken: 0
+[21:07:00] [main/INFO] [GradleStart]: version: 1.7.10
+[21:07:00] [main/INFO] [GradleStart]: username: Developer
+[21:07:00] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[21:07:00] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[21:07:00] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:07:00] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:07:00] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[21:07:00] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:10:05] [main/INFO] [GradleStart]: userProperties: {}
+[21:10:05] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[21:10:05] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[21:10:05] [main/INFO] [GradleStart]: accessToken: 0
+[21:10:05] [main/INFO] [GradleStart]: version: 1.7.10
+[21:10:05] [main/INFO] [GradleStart]: username: Developer
+[21:10:05] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[21:10:05] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[21:10:05] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:10:05] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:10:05] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[21:10:05] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:26:07] [main/INFO] [GradleStart]: userProperties: {}
+[21:26:07] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[21:26:07] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[21:26:07] [main/INFO] [GradleStart]: accessToken: 0
+[21:26:07] [main/INFO] [GradleStart]: version: 1.7.10
+[21:26:07] [main/INFO] [GradleStart]: username: Developer
+[21:26:07] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[21:26:07] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[21:26:07] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:26:07] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:26:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[21:26:07] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:27:05] [main/INFO] [GradleStart]: userProperties: {}
+[21:27:05] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[21:27:05] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[21:27:05] [main/INFO] [GradleStart]: accessToken: 0
+[21:27:05] [main/INFO] [GradleStart]: version: 1.7.10
+[21:27:05] [main/INFO] [GradleStart]: username: Developer
+[21:27:05] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[21:27:05] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[21:27:06] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:27:06] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:27:06] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[21:27:06] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:45:03] [main/INFO] [GradleStart]: userProperties: {}
+[21:45:03] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[21:45:03] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[21:45:03] [main/INFO] [GradleStart]: accessToken: 0
+[21:45:03] [main/INFO] [GradleStart]: version: 1.7.10
+[21:45:03] [main/INFO] [GradleStart]: username: Developer
+[21:45:03] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[21:45:03] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[21:45:03] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:45:03] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:45:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[21:45:03] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:46:22] [main/INFO] [GradleStart]: userProperties: {}
+[21:46:22] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[21:46:22] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[21:46:22] [main/INFO] [GradleStart]: accessToken: 0
+[21:46:22] [main/INFO] [GradleStart]: version: 1.7.10
+[21:46:22] [main/INFO] [GradleStart]: username: Developer
+[21:46:22] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[21:46:22] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[21:46:22] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:46:22] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:46:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[21:46:22] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[21:47:18] [main/INFO] [GradleStart]: userProperties: {}
+[21:47:18] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[21:47:18] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[21:47:18] [main/INFO] [GradleStart]: accessToken: 0
+[21:47:18] [main/INFO] [GradleStart]: version: 1.7.10
+[21:47:18] [main/INFO] [GradleStart]: username: Developer
+[21:47:18] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[21:47:18] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[21:47:18] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:47:18] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[21:47:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[21:47:18] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:01:55] [main/INFO] [GradleStart]: userProperties: {}
+[22:01:55] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[22:01:55] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[22:01:55] [main/INFO] [GradleStart]: accessToken: 0
+[22:01:55] [main/INFO] [GradleStart]: version: 1.7.10
+[22:01:55] [main/INFO] [GradleStart]: username: Developer
+[22:01:55] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[22:01:55] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[22:01:55] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:01:55] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:01:55] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[22:01:55] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:07:41] [main/INFO] [GradleStart]: userProperties: {}
+[22:07:41] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[22:07:41] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[22:07:41] [main/INFO] [GradleStart]: accessToken: 0
+[22:07:41] [main/INFO] [GradleStart]: version: 1.7.10
+[22:07:41] [main/INFO] [GradleStart]: username: Developer
+[22:07:41] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[22:07:41] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[22:07:41] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:07:41] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:07:41] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[22:07:41] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:08:31] [main/INFO] [GradleStart]: userProperties: {}
+[22:08:31] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[22:08:31] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[22:08:31] [main/INFO] [GradleStart]: accessToken: 0
+[22:08:31] [main/INFO] [GradleStart]: version: 1.7.10
+[22:08:31] [main/INFO] [GradleStart]: username: Developer
+[22:08:31] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[22:08:31] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[22:08:31] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:08:31] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:08:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[22:08:31] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[22:10:33] [main/INFO] [GradleStart]: userProperties: {}
+[22:10:33] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[22:10:33] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[22:10:33] [main/INFO] [GradleStart]: accessToken: 0
+[22:10:33] [main/INFO] [GradleStart]: version: 1.7.10
+[22:10:33] [main/INFO] [GradleStart]: username: Developer
+[22:10:33] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[22:10:33] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[22:10:33] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:10:33] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[22:10:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[22:10:33] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[15:48:23] [main/INFO] [GradleStart]: userProperties: {}
+[15:48:23] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[15:48:23] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[15:48:23] [main/INFO] [GradleStart]: accessToken: 0
+[15:48:23] [main/INFO] [GradleStart]: version: 1.7.10
+[15:48:23] [main/INFO] [GradleStart]: username: Developer
+[15:48:23] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[15:48:23] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[15:48:23] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[15:48:23] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[15:48:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:48:23] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[15:55:33] [main/INFO] [GradleStart]: userProperties: {}
+[15:55:33] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[15:55:33] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[15:55:33] [main/INFO] [GradleStart]: accessToken: 0
+[15:55:33] [main/INFO] [GradleStart]: version: 1.7.10
+[15:55:33] [main/INFO] [GradleStart]: username: Developer
+[15:55:33] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[15:55:33] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[15:55:33] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[15:55:33] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[15:55:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:55:33] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[15:56:56] [main/INFO] [GradleStart]: userProperties: {}
+[15:56:56] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[15:56:56] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[15:56:56] [main/INFO] [GradleStart]: accessToken: 0
+[15:56:56] [main/INFO] [GradleStart]: version: 1.7.10
+[15:56:56] [main/INFO] [GradleStart]: username: Developer
+[15:56:56] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[15:56:56] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[15:56:56] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[15:56:56] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[15:56:56] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:56:56] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[15:57:51] [main/INFO] [GradleStart]: userProperties: {}
+[15:57:51] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[15:57:51] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[15:57:51] [main/INFO] [GradleStart]: accessToken: 0
+[15:57:51] [main/INFO] [GradleStart]: version: 1.7.10
+[15:57:51] [main/INFO] [GradleStart]: username: Developer
+[15:57:51] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[15:57:51] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[15:57:51] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[15:57:51] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[15:57:51] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:57:51] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[15:59:22] [main/INFO] [GradleStart]: userProperties: {}
+[15:59:22] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[15:59:22] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[15:59:22] [main/INFO] [GradleStart]: accessToken: 0
+[15:59:22] [main/INFO] [GradleStart]: version: 1.7.10
+[15:59:22] [main/INFO] [GradleStart]: username: Developer
+[15:59:22] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[15:59:22] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[15:59:22] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[15:59:22] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[15:59:22] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:59:22] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[16:00:52] [main/INFO] [GradleStart]: userProperties: {}
+[16:00:52] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[16:00:52] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[16:00:52] [main/INFO] [GradleStart]: accessToken: 0
+[16:00:52] [main/INFO] [GradleStart]: version: 1.7.10
+[16:00:52] [main/INFO] [GradleStart]: username: Developer
+[16:00:52] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[16:00:52] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[16:00:52] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:00:52] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:00:52] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[16:00:52] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[16:02:28] [main/INFO] [GradleStart]: userProperties: {}
+[16:02:28] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[16:02:28] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[16:02:28] [main/INFO] [GradleStart]: accessToken: 0
+[16:02:28] [main/INFO] [GradleStart]: version: 1.7.10
+[16:02:28] [main/INFO] [GradleStart]: username: Developer
+[16:02:28] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[16:02:28] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[16:02:28] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:02:28] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:02:28] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[16:02:28] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[16:13:26] [main/INFO] [GradleStart]: userProperties: {}
+[16:13:26] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[16:13:26] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[16:13:26] [main/INFO] [GradleStart]: accessToken: 0
+[16:13:26] [main/INFO] [GradleStart]: version: 1.7.10
+[16:13:26] [main/INFO] [GradleStart]: username: Developer
+[16:13:26] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[16:13:26] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[16:13:26] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:13:26] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:13:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[16:13:26] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[16:14:54] [main/INFO] [GradleStart]: userProperties: {}
+[16:14:54] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[16:14:54] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[16:14:54] [main/INFO] [GradleStart]: accessToken: 0
+[16:14:54] [main/INFO] [GradleStart]: version: 1.7.10
+[16:14:54] [main/INFO] [GradleStart]: username: Developer
+[16:14:54] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[16:14:54] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[16:14:54] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:14:54] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:14:54] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[16:14:54] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[16:16:19] [main/INFO] [GradleStart]: userProperties: {}
+[16:16:19] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[16:16:19] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[16:16:19] [main/INFO] [GradleStart]: accessToken: 0
+[16:16:19] [main/INFO] [GradleStart]: version: 1.7.10
+[16:16:19] [main/INFO] [GradleStart]: username: Developer
+[16:16:19] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[16:16:19] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[16:16:19] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:16:19] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:16:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[16:16:19] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[16:31:46] [main/INFO] [GradleStart]: userProperties: {}
+[16:31:46] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[16:31:46] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[16:31:46] [main/INFO] [GradleStart]: accessToken: 0
+[16:31:46] [main/INFO] [GradleStart]: version: 1.7.10
+[16:31:46] [main/INFO] [GradleStart]: username: Developer
+[16:31:46] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[16:31:46] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[16:31:46] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:31:46] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[16:31:46] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[16:31:46] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[17:40:50] [main/INFO] [GradleStart]: userProperties: {}
+[17:40:50] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[17:40:50] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[17:40:50] [main/INFO] [GradleStart]: accessToken: 0
+[17:40:50] [main/INFO] [GradleStart]: version: 1.7.10
+[17:40:50] [main/INFO] [GradleStart]: username: Developer
+[17:40:50] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[17:40:50] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[17:40:50] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:40:50] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:40:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:40:50] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[17:41:46] [main/INFO] [GradleStart]: userProperties: {}
+[17:41:46] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[17:41:46] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[17:41:46] [main/INFO] [GradleStart]: accessToken: 0
+[17:41:46] [main/INFO] [GradleStart]: version: 1.7.10
+[17:41:46] [main/INFO] [GradleStart]: username: Developer
+[17:41:46] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[17:41:46] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[17:41:46] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:41:46] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:41:46] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:41:46] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[17:42:39] [main/INFO] [GradleStart]: userProperties: {}
+[17:42:39] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[17:42:39] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[17:42:39] [main/INFO] [GradleStart]: accessToken: 0
+[17:42:39] [main/INFO] [GradleStart]: version: 1.7.10
+[17:42:39] [main/INFO] [GradleStart]: username: Developer
+[17:42:39] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[17:42:39] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[17:42:39] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:42:39] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:42:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:42:39] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[17:43:37] [main/INFO] [GradleStart]: userProperties: {}
+[17:43:37] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[17:43:37] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[17:43:37] [main/INFO] [GradleStart]: accessToken: 0
+[17:43:37] [main/INFO] [GradleStart]: version: 1.7.10
+[17:43:37] [main/INFO] [GradleStart]: username: Developer
+[17:43:37] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[17:43:37] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[17:43:37] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:43:37] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:43:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:43:37] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[17:44:31] [main/INFO] [GradleStart]: userProperties: {}
+[17:44:31] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[17:44:31] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[17:44:31] [main/INFO] [GradleStart]: accessToken: 0
+[17:44:31] [main/INFO] [GradleStart]: version: 1.7.10
+[17:44:31] [main/INFO] [GradleStart]: username: Developer
+[17:44:31] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[17:44:31] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[17:44:31] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:44:31] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:44:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:44:31] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[17:45:02] [main/INFO] [GradleStart]: userProperties: {}
+[17:45:02] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[17:45:02] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[17:45:02] [main/INFO] [GradleStart]: accessToken: 0
+[17:45:02] [main/INFO] [GradleStart]: version: 1.7.10
+[17:45:02] [main/INFO] [GradleStart]: username: Developer
+[17:45:02] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[17:45:02] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[17:45:02] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:45:02] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:45:02] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:45:02] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[18:07:00] [main/INFO] [GradleStart]: userProperties: {}
+[18:07:00] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[18:07:00] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[18:07:00] [main/INFO] [GradleStart]: accessToken: 0
+[18:07:00] [main/INFO] [GradleStart]: version: 1.7.10
+[18:07:00] [main/INFO] [GradleStart]: username: Developer
+[18:07:00] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[18:07:00] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:07:00] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:07:00] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:07:00] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:07:00] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[18:09:34] [main/INFO] [GradleStart]: userProperties: {}
+[18:09:34] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[18:09:34] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[18:09:34] [main/INFO] [GradleStart]: accessToken: 0
+[18:09:34] [main/INFO] [GradleStart]: version: 1.7.10
+[18:09:34] [main/INFO] [GradleStart]: username: Developer
+[18:09:34] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[18:09:34] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:09:34] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:09:34] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:09:34] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:09:34] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[18:11:41] [main/INFO] [GradleStart]: userProperties: {}
+[18:11:41] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[18:11:41] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[18:11:41] [main/INFO] [GradleStart]: accessToken: 0
+[18:11:41] [main/INFO] [GradleStart]: version: 1.7.10
+[18:11:41] [main/INFO] [GradleStart]: username: Developer
+[18:11:41] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[18:11:41] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:11:41] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:11:41] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:11:41] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:11:41] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[18:15:47] [main/INFO] [GradleStart]: userProperties: {}
+[18:15:47] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[18:15:47] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[18:15:47] [main/INFO] [GradleStart]: accessToken: 0
+[18:15:47] [main/INFO] [GradleStart]: version: 1.7.10
+[18:15:47] [main/INFO] [GradleStart]: username: Developer
+[18:15:47] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[18:15:47] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:15:47] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:15:47] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:15:47] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:15:47] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[18:22:43] [main/INFO] [GradleStart]: userProperties: {}
+[18:22:43] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[18:22:43] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[18:22:43] [main/INFO] [GradleStart]: accessToken: 0
+[18:22:43] [main/INFO] [GradleStart]: version: 1.7.10
+[18:22:43] [main/INFO] [GradleStart]: username: Developer
+[18:22:43] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[18:22:43] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:22:43] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:22:43] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:22:43] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:22:43] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[18:28:48] [main/INFO] [GradleStart]: userProperties: {}
+[18:28:48] [main/INFO] [GradleStart]: assetsDir: E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets
+[18:28:48] [main/INFO] [GradleStart]: assetIndex: 1.7.10
+[18:28:48] [main/INFO] [GradleStart]: accessToken: 0
+[18:28:48] [main/INFO] [GradleStart]: version: 1.7.10
+[18:28:48] [main/INFO] [GradleStart]: username: Developer
+[18:28:48] [main/INFO] [GradleStart]: Extra: [--gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc]
+[18:28:48] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, E:\deepseek\工作区1\classicbar-port\gradle-home\caches\retro_futura_gradle\assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --username, Developer, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --gameDir, E:\deepseek\工作区1\dynamiccrosshair-port\run\client, --uuid, 31c4910d-9b69-4725-8969-9ed53ac8a7dc, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:28:48] [main/INFO] [LaunchWrapper]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:28:48] [main/INFO] [LaunchWrapper]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[18:28:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:28:48] [main/INFO] [LaunchWrapper]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker

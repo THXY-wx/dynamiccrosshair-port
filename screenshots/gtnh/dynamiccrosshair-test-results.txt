@@ -1,0 +1,15 @@
+Dynamic Crosshair 1.7.10 automated test
+states=13
+state-0-air-empty hit=MISS state=CrosshairState{NONE, NONE} show=false
+state-1-block-empty hit=BLOCK state=CrosshairState{ON_BLOCK, CAN_INTERACT} show=true
+state-2-chest-empty hit=BLOCK state=CrosshairState{ON_BLOCK, NONE} show=true
+state-3-block-pickaxe hit=BLOCK state=CrosshairState{HOLDING_TOOL, NONE, correct} show=true
+state-4-air-sword hit=BLOCK state=CrosshairState{ON_BLOCK, HOLDING_MELEE} show=true
+state-5-air-block hit=BLOCK state=CrosshairState{ON_BLOCK, NONE} show=true
+state-6-air-food hit=BLOCK state=CrosshairState{ON_BLOCK, HOLDING_USABLE} show=true
+state-7-entity-empty hit=BLOCK state=CrosshairState{ON_BLOCK, NONE} show=true
+state-8-air-bow-drawing hit=BLOCK state=CrosshairState{NONE, HOLDING_RANGED} show=true
+state-9-bobbing-on hit=BLOCK state=CrosshairState{HOLDING_TOOL, NONE, correct} show=true
+state-10-bobbing-off hit=BLOCK state=CrosshairState{HOLDING_TOOL, NONE, correct} show=true
+state-11-attack-animation hit=BLOCK state=CrosshairState{ON_BLOCK, HOLDING_MELEE} show=true
+10-config-gui hit=BLOCK state=CrosshairState{ON_BLOCK, HOLDING_MELEE} show=true

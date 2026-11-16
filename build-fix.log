@@ -1,0 +1,658 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.7.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Caught exception: Couldn't open current thread, error = 5
+Exception in thread "File watcher server" net.rubygrapefruit.platform.NativeException: Couldn't open current thread, error = 5
+	at org.gradle.fileevents.internal.AbstractNativeFileEventFunctions$NativeFileWatcher.initializeRunLoop0(Native Method)
+	at org.gradle.fileevents.internal.AbstractNativeFileEventFunctions$NativeFileWatcher.initializeRunLoop(AbstractNativeFileEventFunctions.java:25)
+	at org.gradle.fileevents.internal.AbstractFileEventFunctions$AbstractFileWatcher$1.run(AbstractFileEventFunctions.java:151)
+
+> Configure project :
+You might want to check out './gradlew :faq' if your build fails.
+
+> Task :compileInjectedInterfacesJava NO-SOURCE
+> Task :extractDependencyATs SKIPPED
+> Task :generateForgeSrgMappings SKIPPED
+> Task :downloadVanillaJars SKIPPED
+> Task :mergeVanillaSidedJars SKIPPED
+> Task :deobfuscateMergedJarToSrg SKIPPED
+> Task :downloadFernflower SKIPPED
+> Task :decompileSrgJar SKIPPED
+> Task :cleanupDecompSrgJar SKIPPED
+> Task :patchDecompiledJar SKIPPED
+> Task :applyJST SKIPPED
+> Task :remapDecompiledJar SKIPPED
+> Task :decompressDecompiledSources UP-TO-DATE
+> Task :processInjectedInterfacesResources NO-SOURCE
+> Task :injectedInterfacesClasses UP-TO-DATE
+> Task :compilePatchedMcJava UP-TO-DATE
+> Task :processPatchedMcResources UP-TO-DATE
+> Task :patchedMcClasses UP-TO-DATE
+> Task :compileApiJava NO-SOURCE
+> Task :processApiResources NO-SOURCE
+> Task :apiClasses UP-TO-DATE
+> Task :injectTags UP-TO-DATE
+> Task :compileInjectedTagsJava UP-TO-DATE
+> Task :extractNatives2 UP-TO-DATE
+> Task :createMcLauncherFiles UP-TO-DATE
+> Task :compileMcLauncherJava UP-TO-DATE
+> Task :processInjectedTagsResources NO-SOURCE
+> Task :injectedTagsClasses UP-TO-DATE
+> Task :processMcLauncherResources NO-SOURCE
+> Task :mcLauncherClasses UP-TO-DATE
+
+> Task :compileJava FAILED
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\crosshair\CrosshairContext.java:4: 错误: 找不到符号
+import net.minecraft.client.Minecraft;
+                           ^
+  符号:   类 Minecraft
+  位置: 程序包 net.minecraft.client
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\crosshair\CrosshairContext.java:14: 错误: 找不到符号
+    public final Minecraft mc;
+                 ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.crosshair.CrosshairContext
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\crosshair\CrosshairContext.java:29: 错误: 找不到符号
+    public CrosshairContext(Minecraft mc) {
+                            ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.crosshair.CrosshairContext
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\bobbing\Bobbing.java:4: 错误: 找不到符号
+import net.minecraft.client.Minecraft;
+                           ^
+  符号:   类 Minecraft
+  位置: 程序包 net.minecraft.client
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\bobbing\Bobbing.java:44: 错误: 找不到符号
+    public static void tick(Minecraft mc) {
+                            ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.bobbing.Bobbing
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\bobbing\Bobbing.java:64: 错误: 找不到符号
+    public static void onAttack(Minecraft mc) {
+                                ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.bobbing.Bobbing
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\bobbing\Bobbing.java:81: 错误: 找不到符号
+    public static Transform compute(Minecraft mc, float partialTicks, int width, int height) {
+                                    ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.bobbing.Bobbing
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\bobbing\Bobbing.java:209: 错误: 找不到符号
+    private static float centerDepth(Minecraft mc, EntityPlayer player, float partialTicks) {
+                                     ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.bobbing.Bobbing
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\bobbing\Bobbing.java:222: 错误: 找不到符号
+    private static float displayAspect(Minecraft mc) {
+                                       ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.bobbing.Bobbing
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\ClientEventHandler.java:7: 错误: 找不到符号
+import net.minecraft.client.Minecraft;
+                           ^
+  符号:   类 Minecraft
+  位置: 程序包 net.minecraft.client
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\ClientEventHandler.java:13: 错误: 找不到符号
+import cpw.mods.fml.common.eventhandler.Event;
+                                       ^
+  符号:   类 Event
+  位置: 程序包 cpw.mods.fml.common.eventhandler
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\ClientEventHandler.java:91: 错误: 找不到符号
+    private void checkPendingPlacement(Minecraft mc) {
+                                       ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.ClientEventHandler
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\compat\CrosshairSelectionCompat.java:149: 错误: 找不到符号
+    public static boolean drawBowIndicator(net.minecraft.client.Minecraft mc, float centreX, float centreY) {
+                                                               ^
+  符号:   类 Minecraft
+  位置: 程序包 net.minecraft.client
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:7: 错误: 找不到符号
+import net.minecraft.client.Minecraft;
+                           ^
+  符号:   类 Minecraft
+  位置: 程序包 net.minecraft.client
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:8: 错误: 找不到符号
+import net.minecraft.client.gui.GuiButton;
+                               ^
+  符号:   类 GuiButton
+  位置: 程序包 net.minecraft.client.gui
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:9: 错误: 找不到符号
+import net.minecraft.client.gui.GuiScreen;
+                               ^
+  符号:   类 GuiScreen
+  位置: 程序包 net.minecraft.client.gui
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:12: 错误: 找不到符号
+public class GuiDynamicCrosshairConfig extends GuiScreen {
+                                               ^
+  符号: 类 GuiScreen
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:21: 错误: 找不到符号
+    private final GuiScreen parent;
+                  ^
+  符号:   类 GuiScreen
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:223: 错误: 找不到符号
+    public static class GuiRow extends GuiButton {
+                                       ^
+  符号:   类 GuiButton
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:26: 错误: 找不到符号
+    public GuiDynamicCrosshairConfig(GuiScreen parent) {
+                                     ^
+  符号:   类 GuiScreen
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:183: 错误: 找不到符号
+    protected void actionPerformed(GuiButton button) {
+                                   ^
+  符号:   类 GuiButton
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:239: 错误: 找不到符号
+        public void drawButton(Minecraft mc, int mouseX, int mouseY) {
+                               ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig.GuiRow
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:261: 错误: 找不到符号
+        public boolean mousePressed(Minecraft mc, int mouseX, int mouseY) {
+                                    ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig.GuiRow
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiFactory.java:6: 错误: 找不到符号
+import net.minecraft.client.Minecraft;
+                           ^
+  符号:   类 Minecraft
+  位置: 程序包 net.minecraft.client
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiFactory.java:7: 错误: 找不到符号
+import net.minecraft.client.gui.GuiScreen;
+                               ^
+  符号:   类 GuiScreen
+  位置: 程序包 net.minecraft.client.gui
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiFactory.java:12: 错误: 找不到符号
+    public void initialize(Minecraft minecraftInstance) {}
+                           ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiFactory
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiFactory.java:15: 错误: 找不到符号
+    public Class<? extends GuiScreen> mainConfigGuiClass() {
+                           ^
+  符号:   类 GuiScreen
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiFactory
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\crosshair\CrosshairEvaluator.java:17: 错误: 找不到符号
+    public static CrosshairState evaluate(Minecraft mc) {
+                                          ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.crosshair.CrosshairEvaluator
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\crosshair\CrosshairHandler.java:21: 错误: 找不到符号
+    public static void update(Minecraft mc) {
+                              ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.crosshair.CrosshairHandler
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\crosshair\CrosshairHandler.java:26: 错误: 找不到符号
+    private static boolean shouldShowCrosshair(Minecraft mc, CrosshairState state) {
+                                               ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.crosshair.CrosshairHandler
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\crosshair\CrosshairHandler.java:61: 错误: 找不到符号
+    public static boolean isHoldingMap(Minecraft mc) {
+                                       ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.crosshair.CrosshairHandler
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\crosshair\CrosshairHandler.java:67: 错误: 找不到符号
+    public static boolean isTargetingBlock(Minecraft mc) {
+                                           ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.crosshair.CrosshairHandler
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\debug\TestHarness.java:55: 错误: 找不到符号
+    private boolean isEnabled(Minecraft mc) {
+                              ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.debug.TestHarness
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\debug\TestHarness.java:180: 错误: 找不到符号
+    private void setupScene(Minecraft mc) {
+                            ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.debug.TestHarness
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\debug\TestHarness.java:218: 错误: 找不到符号
+    private void applyState(Minecraft mc, int index) {
+                            ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.debug.TestHarness
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\debug\TestHarness.java:337: 错误: 找不到符号
+    private void logBobbing(Minecraft mc) {
+                            ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.debug.TestHarness
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\debug\TestHarness.java:343: 错误: 找不到符号
+    private void screenshot(Minecraft mc, String name) {
+                            ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.debug.TestHarness
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\debug\TestHarness.java:360: 错误: 找不到符号
+    private void finish(Minecraft mc) {
+                        ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.debug.TestHarness
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\render\CrosshairOverlay.java:11: 错误: 找不到符号
+import cpw.mods.fml.common.eventhandler.EventPriority;
+                                       ^
+  符号:   类 EventPriority
+  位置: 程序包 cpw.mods.fml.common.eventhandler
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\render\CrosshairOverlay.java:41: 错误: 找不到符号
+    public static void renderFrame(Minecraft mc, float partialTicks) {
+                                   ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.render.CrosshairOverlay
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\render\CrosshairRenderer.java:10: 错误: 找不到符号
+import net.minecraft.client.renderer.Tessellator;
+                                    ^
+  符号:   类 Tessellator
+  位置: 程序包 net.minecraft.client.renderer
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\render\CrosshairRenderer.java:11: 错误: 找不到符号
+import net.minecraft.util.ResourceLocation;
+                         ^
+  符号:   类 ResourceLocation
+  位置: 程序包 net.minecraft.util
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\render\CrosshairRenderer.java:17: 错误: 找不到符号
+    private static final Map<Shape, ResourceLocation> TEXTURES = new EnumMap<>(Shape.class);
+                                    ^
+  符号:   类 ResourceLocation
+  位置: 类 mod.crend.dynamiccrosshair.render.CrosshairRenderer
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\render\CrosshairRenderer.java:205: 错误: 找不到符号
+    private static void addRowSegment(Tessellator tessellator, int x0, int x1, int py,
+                                      ^
+  符号:   类 Tessellator
+  位置: 类 mod.crend.dynamiccrosshair.render.CrosshairRenderer
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+  原因: 找不到cpw.mods.fml.relauncher.Side的类文件
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+警告: 未知的枚举常量 cpw.mods.fml.relauncher.Side.CLIENT
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\render\CrosshairOverlay.java:32: 错误: 找不到符号
+    @SubscribeEvent(priority = EventPriority.HIGHEST)
+                               ^
+  符号:   变量 EventPriority
+  位置: 类 mod.crend.dynamiccrosshair.render.CrosshairOverlay
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\ClientEventHandler.java:41: 错误: 找不到符号
+        Minecraft mc = Minecraft.getMinecraft();
+        ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.ClientEventHandler
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\ClientEventHandler.java:41: 错误: 找不到符号
+        Minecraft mc = Minecraft.getMinecraft();
+                       ^
+  符号:   变量 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.ClientEventHandler
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\ClientEventHandler.java:55: 错误: 找不到符号
+                    Minecraft.getMinecraft(), event.renderTickTime);
+                    ^
+  符号:   变量 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.ClientEventHandler
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\ClientEventHandler.java:62: 错误: 找不到符号
+            Minecraft mc = Minecraft.getMinecraft();
+            ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.ClientEventHandler
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\ClientEventHandler.java:62: 错误: 找不到符号
+            Minecraft mc = Minecraft.getMinecraft();
+                           ^
+  符号:   变量 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.ClientEventHandler
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\ClientEventHandler.java:74: 错误: 找不到符号
+        Minecraft mc = Minecraft.getMinecraft();
+        ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.ClientEventHandler
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\ClientEventHandler.java:74: 错误: 找不到符号
+        Minecraft mc = Minecraft.getMinecraft();
+                       ^
+  符号:   变量 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.ClientEventHandler
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\ClientEventHandler.java:76: 错误: 找不到符号
+        if (event.isCanceled() || event.useItem == Event.Result.DENY) return;
+                 ^
+  符号:   方法 isCanceled()
+  位置: 类型为net.minecraftforge.event.entity.player.PlayerInteractEvent的变量 event
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\ClientEventHandler.java:76: 错误: 无法访问cpw.mods.fml.common.eventhandler.Event.Result
+        if (event.isCanceled() || event.useItem == Event.Result.DENY) return;
+                                       ^
+  找不到cpw.mods.fml.common.eventhandler.Event$Result的类文件
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\ClientEventHandler.java:76: 错误: 程序包Event不存在
+        if (event.isCanceled() || event.useItem == Event.Result.DENY) return;
+                                                        ^
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\ClientEventHandler.java:114: 错误: 找不到符号
+        Minecraft mc = Minecraft.getMinecraft();
+        ^
+  符号:   类 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.ClientEventHandler
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\ClientEventHandler.java:114: 错误: 找不到符号
+        Minecraft mc = Minecraft.getMinecraft();
+                       ^
+  符号:   变量 Minecraft
+  位置: 类 mod.crend.dynamiccrosshair.ClientEventHandler
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:30: 错误: 方法不会覆盖或实现超类型的方法
+    @Override
+    ^
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:36: 错误: 找不到符号
+        buttonList.clear();
+        ^
+  符号:   变量 buttonList
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:41: 错误: 找不到符号
+        int tabX = width / 2 - tabsWidth / 2;
+                   ^
+  符号:   变量 width
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:43: 错误: 找不到符号
+            GuiButton tab = new GuiButton(100 + i, tabX + i * (tabWidth + 2), 24, tabWidth, 18, Lang.t(TABS[i]));
+            ^
+  符号:   类 GuiButton
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:43: 错误: 找不到符号
+            GuiButton tab = new GuiButton(100 + i, tabX + i * (tabWidth + 2), 24, tabWidth, 18, Lang.t(TABS[i]));
+                                ^
+  符号:   类 GuiButton
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:45: 错误: 找不到符号
+            buttonList.add(tab);
+            ^
+  符号:   变量 buttonList
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:48: 错误: 找不到符号
+        int left = width / 2 - 155;
+                   ^
+  符号:   变量 width
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:49: 错误: 找不到符号
+        int right = width / 2 + 5;
+                    ^
+  符号:   变量 width
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:118: 错误: 找不到符号
+        GuiButton done = new GuiButton(200, width / 2 - 100, height - 28, 200, 20, Lang.t("Done"));
+        ^
+  符号:   类 GuiButton
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:118: 错误: 找不到符号
+        GuiButton done = new GuiButton(200, width / 2 - 100, height - 28, 200, 20, Lang.t("Done"));
+                             ^
+  符号:   类 GuiButton
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:118: 错误: 找不到符号
+        GuiButton done = new GuiButton(200, width / 2 - 100, height - 28, 200, 20, Lang.t("Done"));
+                                            ^
+  符号:   变量 width
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:118: 错误: 找不到符号
+        GuiButton done = new GuiButton(200, width / 2 - 100, height - 28, 200, 20, Lang.t("Done"));
+                                                             ^
+  符号:   变量 height
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:119: 错误: 找不到符号
+        buttonList.add(done);
+        ^
+  符号:   变量 buttonList
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:123: 错误: 找不到符号
+        if (y + 20 > height - 32) return;
+                     ^
+  符号:   变量 height
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:126: 错误: 找不到符号
+        buttonList.add(row);
+        ^
+  符号:   变量 buttonList
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:130: 错误: 找不到符号
+        if (y + 20 > height - 32) return;
+                     ^
+  符号:   变量 height
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:152: 错误: 找不到符号
+        buttonList.add(shape);
+        ^
+  符号:   变量 buttonList
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:153: 错误: 找不到符号
+        buttonList.add(colour);
+        ^
+  符号:   变量 buttonList
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:154: 错误: 找不到符号
+        buttonList.add(scale);
+        ^
+  符号:   变量 buttonList
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:179: 错误: 找不到符号
+        mc.displayGuiScreen(parent);
+        ^
+  符号:   变量 mc
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:182: 错误: 方法不会覆盖或实现超类型的方法
+    @Override
+    ^
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:195: 错误: 方法不会覆盖或实现超类型的方法
+    @Override
+    ^
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:197: 错误: 找不到符号
+        drawDefaultBackground();
+        ^
+  符号:   方法 drawDefaultBackground()
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:198: 错误: 找不到符号
+        drawCenteredString(fontRendererObj, Lang.t("Dynamic Crosshair"), width / 2, 8, 0xFFFFFF);
+                           ^
+  符号:   变量 fontRendererObj
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:198: 错误: 找不到符号
+        drawCenteredString(fontRendererObj, Lang.t("Dynamic Crosshair"), width / 2, 8, 0xFFFFFF);
+                                                                         ^
+  符号:   变量 width
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:199: 错误: 找不到符号
+        super.drawScreen(mouseX, mouseY, partialTicks);
+        ^
+  符号:   变量 super
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:203: 错误: 找不到符号
+            drawCenteredString(fontRendererObj, state, width / 2, height - 44, 0xFFFFFF);
+                               ^
+  符号:   变量 fontRendererObj
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:203: 错误: 找不到符号
+            drawCenteredString(fontRendererObj, state, width / 2, height - 44, 0xFFFFFF);
+                                                       ^
+  符号:   变量 width
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:203: 错误: 找不到符号
+            drawCenteredString(fontRendererObj, state, width / 2, height - 44, 0xFFFFFF);
+                                                                  ^
+  符号:   变量 height
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:204: 错误: 找不到符号
+            drawCenteredString(fontRendererObj, Lang.t("AUTO yields when it draws, FORCE_OURS draws ours"), width / 2, height - 58, 0xAAAAAA);
+                               ^
+  符号:   变量 fontRendererObj
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:204: 错误: 找不到符号
+            drawCenteredString(fontRendererObj, Lang.t("AUTO yields when it draws, FORCE_OURS draws ours"), width / 2, height - 58, 0xAAAAAA);
+                                                                                                            ^
+  符号:   变量 width
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:204: 错误: 找不到符号
+            drawCenteredString(fontRendererObj, Lang.t("AUTO yields when it draws, FORCE_OURS draws ours"), width / 2, height - 58, 0xAAAAAA);
+                                                                                                                       ^
+  符号:   变量 height
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:212: 错误: 方法不会覆盖或实现超类型的方法
+    @Override
+    ^
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:217: 错误: 方法不会覆盖或实现超类型的方法
+    @Override
+    ^
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:238: 错误: 方法不会覆盖或实现超类型的方法
+        @Override
+        ^
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:240: 错误: 找不到符号
+            if (!visible) return;
+                 ^
+  符号:   变量 visible
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig.GuiRow
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:241: 错误: 找不到符号
+            boolean hovered = mouseX >= xPosition && mouseY >= yPosition
+                                        ^
+  符号:   变量 xPosition
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig.GuiRow
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:241: 错误: 找不到符号
+            boolean hovered = mouseX >= xPosition && mouseY >= yPosition
+                                                               ^
+  符号:   变量 yPosition
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig.GuiRow
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:242: 错误: 找不到符号
+                    && mouseX < xPosition + width && mouseY < yPosition + height;
+                                ^
+  符号:   变量 xPosition
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig.GuiRow
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:242: 错误: 找不到符号
+                    && mouseX < xPosition + width && mouseY < yPosition + height;
+                                            ^
+  符号:   变量 width
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig.GuiRow
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:242: 错误: 找不到符号
+                    && mouseX < xPosition + width && mouseY < yPosition + height;
+                                                              ^
+  符号:   变量 yPosition
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig.GuiRow
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:242: 错误: 找不到符号
+                    && mouseX < xPosition + width && mouseY < yPosition + height;
+                                                                          ^
+  符号:   变量 height
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig.GuiRow
+E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\config\GuiDynamicCrosshairConfig.java:244: 错误: 找不到符号
+            drawRect(xPosition, yPosition, xPosition + width, yPosition + height, background);
+                     ^
+  符号:   变量 xPosition
+  位置: 类 mod.crend.dynamiccrosshair.config.GuiDynamicCrosshairConfig.GuiRow
+100 个错误
+100 个警告
+
+[Incubating] Problems report is available at: file:///E:/deepseek/%E5%B7%A5%E4%BD%9C%E5%8C%BA1/dynamiccrosshair-port/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':compileJava' (registered by plugin class 'org.gradle.api.plugins.JavaBasePlugin').
+> Compilation failed; see the compiler output below.
+  E:\deepseek\工作区1\dynamiccrosshair-port\src\main\java\mod\crend\dynamiccrosshair\crosshair\CrosshairContext.java:4: 错误: 找不到符号
+  import net.minecraft.client.Minecraft;
+                             ^
+    符号:   类 Minecraft
+    位置: 程序包 net.minecraft.client
+  100 个错误
+  100 个警告
+
+* Try:
+> Check your code and dependencies to fix the compilation error(s)
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.7.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 13s
+9 actionable tasks: 1 executed, 8 up-to-date
