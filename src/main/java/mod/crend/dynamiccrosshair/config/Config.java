@@ -30,6 +30,7 @@ public final class Config {
     public static boolean dynamicOnInteractableBlock = true;
     public static boolean dynamicOnEntity = true;
     public static boolean displayCorrectTool = true;
+    public static boolean displayWeakTool = true;
     public static boolean holdingTool = true;
     public static boolean holdingMeleeWeapon = true;
     public static boolean holdingRangedWeapon = true;
@@ -55,6 +56,9 @@ public final class Config {
     public static boolean adoptSelectionColours = true;
     public static boolean adoptSelectionOutline = false;
     public static boolean useSelectionRenderer = true;
+    public static boolean useWailaHarvest = true;
+    public static boolean useTinkersWeapons = true;
+    public static boolean useModdedTools = true;
     private static final Set<String> interactableBlocks = new HashSet<>();
     private static final Set<String> nonInteractableBlocks = new HashSet<>();
     private static final Set<String> usableItems = new HashSet<>();
@@ -73,6 +77,7 @@ public final class Config {
     public static StyleSetting interactStyle = new StyleSetting(Shape.BRACKETS, 0xFFFFFFFF, true, true, 1.0F);
     public static StyleSetting shieldStyle = new StyleSetting(Shape.BRACKETS_BOTTOM, 0xFFFFFFFF, true, true, 1.0F);
     public static StyleSetting modifierCorrect = new StyleSetting(Shape.DOT, 0xFF55FF55, true, true, 1.0F);
+    public static StyleSetting modifierWeak = new StyleSetting(Shape.DOT, 0xFFFFD700, true, true, 1.0F);
     public static StyleSetting modifierIncorrect = new StyleSetting(Shape.DOT, 0xFFFF5555, true, true, 1.0F);
 
     private Config() {}
@@ -94,6 +99,7 @@ public final class Config {
         dynamicOnInteractableBlock = configuration.getBoolean("onInteractableBlock", "dynamic", dynamicOnInteractableBlock, "Show a crosshair when targeting an interactable block.");
         dynamicOnEntity = configuration.getBoolean("onEntity", "dynamic", dynamicOnEntity, "Show a crosshair when targeting an entity.");
         displayCorrectTool = configuration.getBoolean("displayCorrectTool", "dynamic", displayCorrectTool, "Show green/red dots for correct/incorrect tools.");
+        displayWeakTool = configuration.getBoolean("displayWeakTool", "dynamic", displayWeakTool, "Show the yellow dot when the block can be harvested but the tool class is wrong.");
         holdingTool = configuration.getBoolean("holdingTool", "dynamic", holdingTool, "Crosshair while holding a tool.");
         holdingMeleeWeapon = configuration.getBoolean("holdingMeleeWeapon", "dynamic", holdingMeleeWeapon, "Crosshair while holding a melee weapon.");
         holdingRangedWeapon = configuration.getBoolean("holdingRangedWeapon", "dynamic", holdingRangedWeapon, "Crosshair while holding a ranged weapon.");
@@ -123,6 +129,12 @@ public final class Config {
                 "AUTO mode: also draw Crosshair-Selection's outline around the pixel sprites (usually ugly on thin sprites).");
         useSelectionRenderer = configuration.getBoolean("useSelectionRenderer", "compat", useSelectionRenderer,
                 "AUTO mode: render the dynamic shapes through the smooth Crosshair-Selection-style SDF shader instead of pixel sprites.");
+        useWailaHarvest = configuration.getBoolean("useWailaHarvest", "compat", useWailaHarvest,
+                "Take the green/red tool dot from WailaHarvestability when it is installed; disable to use the built-in tool check.");
+        useTinkersWeapons = configuration.getBoolean("useTinkersWeapons", "compat", useTinkersWeapons,
+                "Recognise Tinkers' Construct swords and harvest tools as melee/tool crosshairs.");
+        useModdedTools = configuration.getBoolean("useModdedTools", "compat", useModdedTools,
+                "Recognise other mods' tools through Forge's getToolClasses/getHarvestLevel.");
         readSet("interactableBlocks", "Blocks that always count as interactable (modid:name or modid:name:meta), comma separated.");
         readSet("nonInteractableBlocks", "Blocks that never count as interactable, comma separated.");
         readSet("usableItems", "Items that always count as usable, comma separated.");
@@ -141,6 +153,7 @@ public final class Config {
         interactStyle = style("interact", interactStyle);
         shieldStyle = style("shield", shieldStyle);
         modifierCorrect = style("modifierCorrect", modifierCorrect);
+        modifierWeak = style("modifierWeak", modifierWeak);
         modifierIncorrect = style("modifierIncorrect", modifierIncorrect);
 
         configuration.save();
@@ -176,6 +189,7 @@ public final class Config {
         configuration.get("dynamic", "onInteractableBlock", true).set(dynamicOnInteractableBlock);
         configuration.get("dynamic", "onEntity", true).set(dynamicOnEntity);
         configuration.get("dynamic", "displayCorrectTool", true).set(displayCorrectTool);
+        configuration.get("dynamic", "displayWeakTool", true).set(displayWeakTool);
         configuration.get("dynamic", "holdingTool", true).set(holdingTool);
         configuration.get("dynamic", "holdingMeleeWeapon", true).set(holdingMeleeWeapon);
         configuration.get("dynamic", "holdingRangedWeapon", true).set(holdingRangedWeapon);
@@ -197,6 +211,9 @@ public final class Config {
         configuration.get("compat", "adoptSelectionColours", true).set(adoptSelectionColours);
         configuration.get("compat", "adoptSelectionOutline", false).set(adoptSelectionOutline);
         configuration.get("compat", "useSelectionRenderer", true).set(useSelectionRenderer);
+        configuration.get("compat", "useWailaHarvest", true).set(useWailaHarvest);
+        configuration.get("compat", "useTinkersWeapons", true).set(useTinkersWeapons);
+        configuration.get("compat", "useModdedTools", true).set(useModdedTools);
         configuration.get("compat", "interactableBlocks", "").set(join(interactableBlocks));
         configuration.get("compat", "nonInteractableBlocks", "").set(join(nonInteractableBlocks));
         configuration.get("compat", "usableItems", "").set(join(usableItems));
@@ -213,6 +230,7 @@ public final class Config {
         configuration.get("style", "interact", "").set(interactStyle.serialize());
         configuration.get("style", "shield", "").set(shieldStyle.serialize());
         configuration.get("style", "modifierCorrect", "").set(modifierCorrect.serialize());
+        configuration.get("style", "modifierWeak", "").set(modifierWeak.serialize());
         configuration.get("style", "modifierIncorrect", "").set(modifierIncorrect.serialize());
         configuration.save();
     }
@@ -228,6 +246,7 @@ public final class Config {
         dynamicOnInteractableBlock = true;
         dynamicOnEntity = true;
         displayCorrectTool = true;
+        displayWeakTool = true;
         holdingTool = true;
         holdingMeleeWeapon = true;
         holdingRangedWeapon = true;
@@ -249,6 +268,9 @@ public final class Config {
         adoptSelectionColours = true;
         adoptSelectionOutline = false;
         useSelectionRenderer = true;
+        useWailaHarvest = true;
+        useTinkersWeapons = true;
+        useModdedTools = true;
         regular = new StyleSetting(Shape.CROSS_OPEN, 0xFFFFFFFF, true, true, 1.0F);
         onBlock = new StyleSetting(Shape.CROSS_OPEN, 0xFFFFFFFF, true, true, 1.0F);
         onEntity = new StyleSetting(Shape.CROSS_OPEN_DIAGONAL, 0xFFFFFFFF, true, true, 1.0F);
@@ -261,6 +283,7 @@ public final class Config {
         interactStyle = new StyleSetting(Shape.BRACKETS, 0xFFFFFFFF, true, true, 1.0F);
         shieldStyle = new StyleSetting(Shape.BRACKETS_BOTTOM, 0xFFFFFFFF, true, true, 1.0F);
         modifierCorrect = new StyleSetting(Shape.DOT, 0xFF55FF55, true, true, 1.0F);
+        modifierWeak = new StyleSetting(Shape.DOT, 0xFFFFD700, true, true, 1.0F);
         modifierIncorrect = new StyleSetting(Shape.DOT, 0xFFFF5555, true, true, 1.0F);
         save();
     }

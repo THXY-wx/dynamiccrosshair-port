@@ -53,36 +53,66 @@ public final class CrosshairEvaluator {
         apply(state, itemType);
 
         if (Config.displayCorrectTool) {
-            if (itemType == InteractionType.CORRECT_TOOL) state.correctTool = true;
-            else if (itemType == InteractionType.INCORRECT_TOOL) state.incorrectTool = true;
+            boolean toolish = context.held != null && (Compat.isHeldTool(context.held)
+                    || Compat.isGenericTool(context.held)
+                    || mod.crend.dynamiccrosshair.compat.TinkersCompat.isMeleeWeapon(context.held)
+                    || mod.crend.dynamiccrosshair.compat.TinkersCompat.isHarvestTool(context.held));
+            if (toolish && context.withBlock && context.block != null) {
+                boolean canHarvest = canHarvest(context);
+                boolean effective = isToolEffective(context);
+                if (canHarvest && effective) {
+                    state.correctTool = true;
+                } else if (canHarvest) {
+                    if (Config.displayWeakTool) state.weakTool = true;
+                    else state.correctTool = true;
+                } else {
+                    state.incorrectTool = true;
+                }
+            } else if (itemType == InteractionType.CORRECT_TOOL) {
+                state.correctTool = true;
+            } else if (itemType == InteractionType.INCORRECT_TOOL) {
+                state.incorrectTool = true;
+            }
         }
 
         if (state.primary != CrosshairVariant.NONE && state.secondary != CrosshairVariant.NONE) {
             if (!state.primary.style().coalesce) state.secondary = CrosshairVariant.NONE;
             else if (!state.secondary.style().coalesce) state.primary = CrosshairVariant.NONE;
         }
-        // A held item's crosshair is exclusive: it must not be overlaid on the block/entity/interact
-        // style. Either side can be the held style (TOOL sets primary, weapons set secondary).
-        boolean primaryHolding = isHolding(state.primary);
-        boolean secondaryHolding = isHolding(state.secondary);
-        if (primaryHolding && secondaryHolding) {
-            state.primary = CrosshairVariant.NONE;
-        } else if (primaryHolding) {
-            state.secondary = CrosshairVariant.NONE;
-        } else if (secondaryHolding) {
-            state.primary = CrosshairVariant.NONE;
-        }
         return state;
     }
 
-    private static boolean isHolding(CrosshairVariant variant) {
-        return variant == CrosshairVariant.HOLDING_TOOL
-                || variant == CrosshairVariant.HOLDING_MELEE
-                || variant == CrosshairVariant.HOLDING_RANGED
-                || variant == CrosshairVariant.HOLDING_THROWABLE
-                || variant == CrosshairVariant.HOLDING_BLOCK
-                || variant == CrosshairVariant.HOLDING_USABLE
-                || variant == CrosshairVariant.HOLDING_SHIELD;
+    private static boolean canHarvest(CrosshairContext context) {
+        if (Config.useWailaHarvest) {
+            Boolean waila = Compat.wailaCanHarvest(context.held, context.block, context.meta);
+            if (waila != null) return waila;
+        }
+        try {
+            return context.block.canHarvestBlock(context.player, context.meta)
+                    || net.minecraftforge.common.ForgeHooks.canHarvestBlock(
+                            context.block, context.player, context.meta)
+                    || net.minecraftforge.common.ForgeHooks.canToolHarvestBlock(
+                            context.block, context.meta, context.held);
+        } catch (Throwable t) {
+            return false;
+        }
+    }
+
+    private static boolean isToolEffective(CrosshairContext context) {
+        String toolClass = context.block.getHarvestTool(context.meta);
+        if (toolClass == null || toolClass.isEmpty()) return true;
+        if (context.held == null || context.held.getItem() == null) return false;
+        try {
+            java.util.Set<String> classes = context.held.getItem().getToolClasses(context.held);
+            if (classes != null) {
+                // The block names a tool class: matching it is mandatory. A high dig speed on the
+                // wrong tool class (e.g. a TiC hammer on an axe block) is exactly the yellow case.
+                return classes.contains(toolClass);
+            }
+            return context.held.getItem().getHarvestLevel(context.held, toolClass) >= 0;
+        } catch (Throwable t) {
+            return false;
+        }
     }
 
     private static void apply(CrosshairState state, InteractionType type) {

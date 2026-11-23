@@ -61,6 +61,7 @@ public class GuiDynamicCrosshairConfig extends GuiScreen {
                 addRow(left, top + 6 * step, "Correct tool dots", () -> onOff(Config.displayCorrectTool), () -> Config.displayCorrectTool = !Config.displayCorrectTool);
                 addRow(right, top + 0 * step, "Bobbing", () -> onOff(Config.bobbingEnabled), () -> Config.bobbingEnabled = !Config.bobbingEnabled);
                 addRow(right, top + 1 * step, "Bob strength", () -> String.format("%.2f", Config.bobStrength), () -> Config.bobStrength = cycle(Config.bobStrength, 0.0F, 3.0F, 0.25F));
+                addRow(right, top + 3 * step, "Weak tool dot", () -> onOff(Config.displayWeakTool), () -> Config.displayWeakTool = !Config.displayWeakTool);
                 addRow(right, top + 2 * step, "Reset defaults", () -> "§c" + Lang.t("Reset"), () -> { Config.resetDefaults(); buildPage(); });
                 addRow(right, top + 4 * step, "Done", () -> "§a" + Lang.t("Save & close"), this::done);
                 break;
@@ -107,8 +108,11 @@ public class GuiDynamicCrosshairConfig extends GuiScreen {
                 addRow(left, top + 1 * step, "Adopt colour/flow", () -> onOff(Config.adoptSelectionColours), () -> Config.adoptSelectionColours = !Config.adoptSelectionColours);
                 addRow(left, top + 2 * step, "Adopt outline", () -> onOff(Config.adoptSelectionOutline), () -> Config.adoptSelectionOutline = !Config.adoptSelectionOutline);
                 addRow(left, top + 3 * step, "Vector renderer", () -> onOff(Config.useSelectionRenderer), () -> Config.useSelectionRenderer = !Config.useSelectionRenderer);
-                addRow(left, top + 4 * step, "Block overrides", () -> "", () -> {});
-                addRow(left, top + 5 * step, "Item overrides", () -> "", () -> {});
+                addRow(left, top + 4 * step, "Waila tool dot", () -> onOff(Config.useWailaHarvest), () -> Config.useWailaHarvest = !Config.useWailaHarvest);
+                addRow(left, top + 5 * step, "TiC weapons", () -> onOff(Config.useTinkersWeapons), () -> Config.useTinkersWeapons = !Config.useTinkersWeapons);
+                addRow(left, top + 6 * step, "Modded tools", () -> onOff(Config.useModdedTools), () -> Config.useModdedTools = !Config.useModdedTools);
+                addRow(left, top + 7 * step, "Block overrides", () -> "", () -> {});
+                addRow(left, top + 8 * step, "Item overrides", () -> "", () -> {});
                 rows.get(rows.size() - 2).readOnly = true;
                 rows.get(rows.size() - 1).readOnly = true;
                 addRow(right, top + 0 * step, "Save config", () -> "§aSave", Config::save);

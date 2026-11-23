@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+MixinConfigs: mixins.gtnhmixins.json,mixingasm.init.mixin.json,mixinga
+ sm.mixin.json
+Premain-Class: org.spongepowered.tools.agent.MixinAgent
+Implementation-Version: 0.15.6+mixin.0.8.7
+FMLCorePluginContainsFMLMod: true
+Agent-Class: org.spongepowered.tools.agent.MixinAgent
+Can-Redefine-Classes: true
+Can-Retransform-Classes: true
+TweakClass: org.spongepowered.asm.launch.MixinTweaker
+Commit-ID: 93d8ebf
+ForceLoadAsMod: true
+FMLCorePlugin: io.github.legacymoddingmc.unimixins.all.AllCore
+

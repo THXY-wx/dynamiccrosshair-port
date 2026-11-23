@@ -51,6 +51,10 @@ public final class Lang {
         put("Adopt colour/flow", "沿用颜色/流彩");
         put("Adopt outline", "沿用描边");
         put("Vector renderer", "平滑矢量渲染");
+        put("Waila tool dot", "Waila 工具点");
+        put("TiC weapons", "匠魂武器");
+        put("Weak tool dot", "工具不匹配点");
+        put("Modded tools", "模组工具");
         put("Block overrides", "方块覆盖");
         put("Item overrides", "物品覆盖");
         put("Save config", "保存配置");

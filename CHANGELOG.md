@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.14 — 2026-11-16
+
+- Restored the original primary+secondary overlay (removed the held-style exclusive rule).
+- Enlarged the bracket-round arcs (6.6 units) so they sit clearly outside the 4.6-unit square,
+  matching the original mod's "big brackets around a small square" layering.
+
 ## 1.1.10 — 2026-11-15
 
 - Modifier dots are drawn through the same SDF shader as the base crosshair, so the centre dot and

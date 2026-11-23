@@ -79,6 +79,8 @@ public final class Compat {
 
         if (item instanceof ItemBlock) return InteractionType.PLACE_BLOCK;
         if (item instanceof ItemSword) return InteractionType.MELEE_WEAPON;
+        if (Config.useTinkersWeapons && TinkersCompat.isMeleeWeapon(stack)) return InteractionType.MELEE_WEAPON;
+        if (Config.useModdedTools && isGenericMelee(stack)) return InteractionType.MELEE_WEAPON;
         if (item instanceof ItemBow) {
             boolean drawing = context.player != null && context.player.isUsingItem()
                     && context.player.getItemInUse() == stack;
@@ -92,6 +94,8 @@ public final class Compat {
             return InteractionType.THROW_ITEM;
         }
         if (item instanceof ItemFishingRod) return InteractionType.USE_ITEM;
+        if (Config.useTinkersWeapons && TinkersCompat.isHarvestTool(stack)) return classifyTool(context, stack);
+        if (Config.useModdedTools && isGenericTool(stack)) return classifyTool(context, stack);
         if (isTool(item, stack)) return classifyTool(context, stack);
         if (item instanceof ItemHoe || item instanceof ItemShears || item instanceof ItemFlintAndSteel
                 || item instanceof ItemBucket) {
@@ -102,6 +106,56 @@ public final class Compat {
         if (Config.isItemForcedUsable(id, meta)) return InteractionType.USE_ITEM;
         if (isCustomUsable(item)) return InteractionType.USE_ITEM;
         return InteractionType.EMPTY;
+    }
+
+    private static boolean wailaChecked;
+    private static java.lang.reflect.Method wailaCanHarvest;
+
+    /** Exact WailaHarvestability result, or null when the addon is absent. */
+    public static Boolean wailaCanHarvest(ItemStack stack, Block block, int meta) {
+        if (!wailaChecked) {
+            wailaChecked = true;
+            try {
+                Class<?> helper = Class.forName("squeek.wailaharvestability.helpers.ToolHelper");
+                wailaCanHarvest = helper.getMethod("canToolHarvestBlock",
+                        ItemStack.class, Block.class, int.class);
+            } catch (Throwable ignored) {
+                wailaCanHarvest = null;
+            }
+        }
+        if (wailaCanHarvest == null) return null;
+        try {
+            return (Boolean) wailaCanHarvest.invoke(null, stack, block, meta);
+        } catch (Throwable ignored) {
+            return null;
+        }
+    }
+
+    private static final String[] HARVEST_CLASSES = {"pickaxe", "axe", "shovel", "hoe", "sword"};
+
+    /** Forge tool API used by GregTech, Railcraft, BuildCraft and most modded tools. */
+    public static boolean isGenericMelee(ItemStack stack) {
+        if (stack == null || stack.getItem() == null) return false;
+        java.util.Set<String> classes = stack.getItem().getToolClasses(stack);
+        return classes != null && classes.contains("sword");
+    }
+
+    public static boolean isGenericTool(ItemStack stack) {
+        if (stack == null || stack.getItem() == null) return false;
+        java.util.Set<String> classes = stack.getItem().getToolClasses(stack);
+        if (classes != null) {
+            for (String toolClass : HARVEST_CLASSES) {
+                if (classes.contains(toolClass)) return true;
+            }
+        }
+        for (String toolClass : HARVEST_CLASSES) {
+            if (stack.getItem().getHarvestLevel(stack, toolClass) >= 0) return true;
+        }
+        return false;
+    }
+
+    public static boolean isHeldTool(ItemStack stack) {
+        return stack != null && stack.getItem() != null && isTool(stack.getItem(), stack);
     }
 
     private static boolean isTool(Item item, ItemStack stack) {

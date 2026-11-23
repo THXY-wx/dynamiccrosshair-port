@@ -16,6 +16,8 @@ public final class TinkersCompat {
 
     private static final Class<?> IWINDUP = classOrNull("tconstruct.library.weaponry.IWindup");
     private static final Class<?> CROSSBOW = classOrNull("tconstruct.weaponry.weapons.Crossbow");
+    private static final Class<?> WEAPON = classOrNull("tconstruct.library.tools.Weapon");
+    private static final Class<?> HARVEST_TOOL = classOrNull("tconstruct.library.tools.HarvestTool");
 
     private static final Method[] WINDUP_PROGRESS = {
             methodOrNull(IWINDUP, "getWindupProgress", ItemStack.class, EntityPlayer.class),
@@ -36,6 +38,18 @@ public final class TinkersCompat {
         if (stack == null || stack.getItem() == null || IWINDUP == null) return false;
         if (!IWINDUP.isInstance(stack.getItem())) return false;
         return stack.getTagCompound() != null || (CROSSBOW != null && CROSSBOW.isInstance(stack.getItem()));
+    }
+
+    /** TiC melee weapons (sword, rapier, cleaver, scythe, ...) extend Weapon. */
+    public static boolean isMeleeWeapon(ItemStack stack) {
+        return stack != null && stack.getItem() != null && WEAPON != null
+                && WEAPON.isInstance(stack.getItem());
+    }
+
+    /** TiC pickaxes, hammers, excavators, ... extend HarvestTool. */
+    public static boolean isHarvestTool(ItemStack stack) {
+        return stack != null && stack.getItem() != null && HARVEST_TOOL != null
+                && HARVEST_TOOL.isInstance(stack.getItem());
     }
 
     public static boolean isCrossbow(ItemStack stack) {

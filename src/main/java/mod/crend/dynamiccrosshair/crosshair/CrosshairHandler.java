@@ -48,6 +48,7 @@ public final class CrosshairHandler {
     public static List<StyleSetting> modifiers() {
         List<StyleSetting> styles = new ArrayList<>(2);
         if (state.correctTool) styles.add(Config.modifierCorrect);
+        if (state.weakTool) styles.add(Config.modifierWeak);
         if (state.incorrectTool) styles.add(Config.modifierIncorrect);
         return styles;
     }

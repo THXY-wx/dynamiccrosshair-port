@@ -1,28 +1,39 @@
-[18:28:48] [main/INFO]: Setting user: Developer
-[18:28:49] [Client thread/INFO]: LWJGL Version: 2.9.4
-[18:28:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Dynamic Crosshair, FMLFileResourcePack:Crosshair-Selection (test stub)
-[18:28:52] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[18:28:52] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[18:28:52] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Dynamic Crosshair, FMLFileResourcePack:Crosshair-Selection (test stub)
-[18:28:52] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[18:28:52] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[18:28:53] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[18:28:53] [Server thread/INFO]: Generating keypair
-[18:28:53] [Server thread/INFO]: Converting map!
-[18:28:53] [Server thread/INFO]: Scanning folders...
-[18:28:53] [Server thread/INFO]: Total conversion count is 0
-[18:28:53] [Sound Library Loader/INFO]: Sound engine started
-[18:28:53] [Sound Library Loader/INFO]: Sound engine started
-[18:28:53] [Server thread/INFO]: Preparing start region for level 0
-[18:28:54] [Server thread/INFO]: Changing view distance to 12, from 10
-[18:28:54] [Server thread/INFO]: Developer[local:E:d8519068] logged in with entity id 0 at (-763.5, 4.0, -1990.5)
-[18:28:54] [Server thread/INFO]: Developer 加入了游戏
-[18:29:03] [Client thread/INFO]: Stopping!
-[18:29:03] [Server thread/INFO]: Stopping server
-[18:29:03] [Server thread/INFO]: Saving players
-[18:29:03] [Server thread/INFO]: Saving worlds
-[18:29:03] [Server thread/INFO]: Saving chunks for level 'Dynamic Crosshair AutoTest'/Overworld
-[18:29:03] [Server thread/INFO]: Saving chunks for level 'Dynamic Crosshair AutoTest'/Nether
-[18:29:03] [Server thread/INFO]: Saving chunks for level 'Dynamic Crosshair AutoTest'/The End
-[18:29:03] [Client Shutdown Thread/INFO]: Stopping server
-[18:29:03] [Client Shutdown Thread/INFO]: Saving players
+[13:39:23] [main/INFO]: Setting user: Developer
+[13:39:24] [Client thread/INFO]: LWJGL Version: 2.9.4
+[13:39:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Smooth UI, FMLFileResourcePack:UniMixins, FMLFileResourcePack:UniMixins: Mixin (UniMix), FMLFileResourcePack:UniMixins: Compatibility, FMLFileResourcePack:UniMixins: Mixingasm, FMLFileResourcePack:UniMixins: SpongeMixins, FMLFileResourcePack:UniMixins: MixinBooterLegacy, FMLFileResourcePack:UniMixins: GTNHMixins, FMLFileResourcePack:UniMixins: MixinExtras
+[13:39:28] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[13:39:28] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[13:39:28] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Smooth UI, FMLFileResourcePack:UniMixins, FMLFileResourcePack:UniMixins: Mixin (UniMix), FMLFileResourcePack:UniMixins: Compatibility, FMLFileResourcePack:UniMixins: Mixingasm, FMLFileResourcePack:UniMixins: SpongeMixins, FMLFileResourcePack:UniMixins: MixinBooterLegacy, FMLFileResourcePack:UniMixins: GTNHMixins, FMLFileResourcePack:UniMixins: MixinExtras
+[13:39:28] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[13:39:28] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[13:39:28] [Sound Library Loader/INFO]: Sound engine started
+[13:39:34] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[13:39:42] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[13:39:45] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[13:39:46] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[13:39:47] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[13:39:47] [Server thread/INFO]: Generating keypair
+[13:39:47] [Server thread/INFO]: Preparing start region for level 0
+[13:39:47] [Server thread/INFO]: Changing view distance to 12, from 10
+[13:39:47] [Server thread/INFO]: Developer[local:E:f31e1885] logged in with entity id 219 at (-752.6840184713263, 5.0, -1985.1844948807575)
+[13:39:47] [Server thread/INFO]: Developer joined the game
+[13:39:48] [Server thread/INFO]: Saving and pausing game...
+[13:39:48] [Server thread/INFO]: Saving chunks for level 'Dynamic Crosshair AutoTest'/Overworld
+[13:39:48] [Server thread/INFO]: Saving chunks for level 'Dynamic Crosshair AutoTest'/Nether
+[13:39:48] [Server thread/INFO]: Saving chunks for level 'Dynamic Crosshair AutoTest'/The End
+[13:39:49] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.chestopen
+[13:39:50] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:random.chestclosed
+[13:39:51] [Server thread/INFO]: Saving and pausing game...
+[13:39:51] [Server thread/INFO]: Saving chunks for level 'Dynamic Crosshair AutoTest'/Overworld
+[13:39:51] [Server thread/INFO]: Saving chunks for level 'Dynamic Crosshair AutoTest'/Nether
+[13:39:51] [Server thread/INFO]: Saving chunks for level 'Dynamic Crosshair AutoTest'/The End
+[13:39:53] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[13:39:53] [Server thread/INFO]: Stopping server
+[13:39:53] [Server thread/INFO]: Saving players
+[13:39:53] [Server thread/INFO]: Saving worlds
+[13:39:53] [Server thread/INFO]: Saving chunks for level 'Dynamic Crosshair AutoTest'/Overworld
+[13:39:53] [Server thread/INFO]: Saving chunks for level 'Dynamic Crosshair AutoTest'/Nether
+[13:39:53] [Server thread/INFO]: Saving chunks for level 'Dynamic Crosshair AutoTest'/The End
+[13:39:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:music.menu
+[13:39:54] [Client thread/WARN]: Unable to play unknown soundEvent: minecraft:gui.button.press
+[13:39:54] [Client thread/INFO]: Stopping!
