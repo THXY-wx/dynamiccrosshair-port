@@ -99,6 +99,14 @@ public final class CrosshairEvaluator {
     }
 
     private static boolean isToolEffective(CrosshairContext context) {
+        if (Config.useWailaHarvest && context.held != null) {
+            String wailaTool = Compat.wailaEffectiveTool(context.world, context.x, context.y, context.z,
+                    context.block, context.meta);
+            if (wailaTool != null && !wailaTool.isEmpty()) {
+                Boolean effective = Compat.wailaIsToolEffective(context.held, context.block, context.meta, wailaTool);
+                if (effective != null) return effective;
+            }
+        }
         String toolClass = context.block.getHarvestTool(context.meta);
         if (toolClass == null || toolClass.isEmpty()) return true;
         if (context.held == null || context.held.getItem() == null) return false;

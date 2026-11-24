@@ -110,6 +110,8 @@ public final class Compat {
 
     private static boolean wailaChecked;
     private static java.lang.reflect.Method wailaCanHarvest;
+    private static java.lang.reflect.Method wailaEffectiveTool;
+    private static java.lang.reflect.Method wailaIsToolEffective;
 
     /** Exact WailaHarvestability result, or null when the addon is absent. */
     public static Boolean wailaCanHarvest(ItemStack stack, Block block, int meta) {
@@ -119,6 +121,11 @@ public final class Compat {
                 Class<?> helper = Class.forName("squeek.wailaharvestability.helpers.ToolHelper");
                 wailaCanHarvest = helper.getMethod("canToolHarvestBlock",
                         ItemStack.class, Block.class, int.class);
+                Class<?> blockHelper = Class.forName("squeek.wailaharvestability.helpers.BlockHelper");
+                wailaEffectiveTool = blockHelper.getMethod("getEffectiveToolOf",
+                        net.minecraft.world.World.class, int.class, int.class, int.class, Block.class, int.class);
+                wailaIsToolEffective = helper.getMethod("isToolEffectiveAgainst",
+                        ItemStack.class, Block.class, int.class, String.class);
             } catch (Throwable ignored) {
                 wailaCanHarvest = null;
             }
@@ -126,6 +133,27 @@ public final class Compat {
         if (wailaCanHarvest == null) return null;
         try {
             return (Boolean) wailaCanHarvest.invoke(null, stack, block, meta);
+        } catch (Throwable ignored) {
+            return null;
+        }
+    }
+
+    /** The tool class WailaHarvestability displays (its getEffectiveToolOf fallback chain). */
+    public static String wailaEffectiveTool(net.minecraft.world.World world, int x, int y, int z,
+                                            Block block, int meta) {
+        if (wailaEffectiveTool == null || world == null || block == null) return null;
+        try {
+            Object value = wailaEffectiveTool.invoke(null, world, x, y, z, block, meta);
+            return value instanceof String ? (String) value : null;
+        } catch (Throwable ignored) {
+            return null;
+        }
+    }
+
+    public static Boolean wailaIsToolEffective(ItemStack stack, Block block, int meta, String toolClass) {
+        if (wailaIsToolEffective == null || stack == null || block == null || toolClass == null) return null;
+        try {
+            return (Boolean) wailaIsToolEffective.invoke(null, stack, block, meta, toolClass);
         } catch (Throwable ignored) {
             return null;
         }
