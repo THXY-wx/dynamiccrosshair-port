@@ -1,16 +1,16 @@
-name: Release
+name: Build & Release
 
 on:
   push:
     tags:
-      - 'v*'
-      - '[0-9]*'
+      - '*'          # any tag, e.g. 1.1.27 -> build and publish that version
+  workflow_dispatch: # manual build from the Actions tab (artifact only, no release)
 
 permissions:
-  contents: write
+  contents: write    # required to create the GitHub release
 
 jobs:
-  release:
+  build:
     name: Build and publish release
     runs-on: ubuntu-latest
 
@@ -18,6 +18,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          # gtnhgradle derives versions/data from tags/history
           fetch-depth: 0
 
       - name: Set up JDK 25
@@ -29,38 +30,53 @@ jobs:
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
 
-      - name: Verify tag matches modVersion
+      - name: Read version and verify tag
         shell: bash
         run: |
-          tag="${GITHUB_REF_NAME#v}"
           version="$(sed -n 's/^modVersion *= *//p' gradle.properties | tr -d '[:space:]')"
-          echo "tag=$tag modVersion=$version"
-          if [ "$tag" != "$version" ]; then
-            echo "::error::tag $tag does not match modVersion $version in gradle.properties"
-            exit 1
+          echo "VERSION=$version" >> "$GITHUB_ENV"
+          echo "modVersion=$version"
+          if [ "${GITHUB_REF_TYPE}" = "tag" ]; then
+            tag="${GITHUB_REF_NAME#v}"
+            echo "tag=$tag"
+            if [ "$tag" != "$version" ]; then
+              echo "::error::tag $tag does not match modVersion $version in gradle.properties"
+              exit 1
+            fi
           fi
 
       - name: Build
         run: |
           chmod +x gradlew
-          ./gradlew build --no-daemon --stacktrace
+          ./gradlew clean build --no-daemon --stacktrace
 
       - name: Collect release jar
         shell: bash
         run: |
           mkdir -p dist
-          find build/libs -maxdepth 1 -type f -name 'DynamicCrosshair-*.jar' \
-            ! -name '*-dev.jar' ! -name '*-sources.jar' -exec cp {} dist/ \;
-          if [ -z "$(ls -A dist)" ]; then
-            echo "::error::no release jar found in build/libs"
+          jar="build/libs/DynamicCrosshair-1.7.10-$VERSION.jar"
+          if [ ! -f "$jar" ]; then
+            echo "::error::expected release jar not found: $jar"
+            ls -l build/libs
             exit 1
           fi
+          cp "$jar" dist/
           ls -lh dist
 
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dynamiccrosshair-jar
+          path: dist/*.jar
+
       - name: Publish GitHub release
+        if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ github.ref_name }}
+          name: ${{ github.ref_name }}
           files: dist/*.jar
           generate_release_notes: true
+          draft: false
+          prerelease: false
           fail_on_unmatched_files: true
-          name: ${{ github.ref_name }}

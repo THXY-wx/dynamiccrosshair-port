@@ -39,19 +39,25 @@ public class ClientEventHandler {
     public void onClientTick(TickEvent.ClientTickEvent event) {
         if (event.phase != TickEvent.Phase.END) return;
         Minecraft mc = Minecraft.getMinecraft();
-        // Crosshair-Selection is suspended for the whole render frame; restore it once the frame
-        // (including its RenderTickEvent.END draw call) is over, at the start of the next tick.
-        CrosshairSelectionCompat.restoreAfterFrame();
+        if (mc.theWorld == null) {
+            CrosshairSelectionCompat.restoreAfterFrame();
+        }
         Bobbing.tick(mc);
     }
 
-    @SubscribeEvent
+    @SubscribeEvent(priority = cpw.mods.fml.common.eventhandler.EventPriority.LOWEST)
     public void onRenderTick(TickEvent.RenderTickEvent event) {
         if (event.phase == TickEvent.Phase.START) {
             CrosshairSelectionCompat.suspendForFrame();
         } else {
-            mod.crend.dynamiccrosshair.render.CrosshairOverlay.renderFrame(
-                    Minecraft.getMinecraft(), event.renderTickTime);
+            try {
+                mod.crend.dynamiccrosshair.render.CrosshairOverlay.renderFrame(
+                        Minecraft.getMinecraft(), event.renderTickTime);
+            } finally {
+                // Restore in the same frame; leaving it false across the tick boundary let
+                // Crosshair-Selection save enabled=false when its config screen was opened.
+                CrosshairSelectionCompat.restoreAfterFrame();
+            }
         }
     }
 

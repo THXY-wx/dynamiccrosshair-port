@@ -109,6 +109,8 @@ public final class CrosshairSelectionCompat {
             }
 
             present = true;
+            Runtime.getRuntime().addShutdownHook(new Thread(CrosshairSelectionCompat::emergencyRestore,
+                    "dynamiccrosshair-cs-restore"));
             DynamicCrosshair.LOGGER.info("Crosshair-Selection detected; colour/flow bridge active (mode {})", Config.crosshairSelection);
         } catch (Throwable t) {
             warn("Failed to hook Crosshair-Selection: " + t);
@@ -184,6 +186,10 @@ public final class CrosshairSelectionCompat {
      */
     public static void suspendForFrame() {
         if (!isPresent() || suspendedOriginal != null) return;
+        // Never touch Crosshair-Selection while a GUI is open: its config screen would read the
+        // temporary false value and persist it when the screen is closed.
+        net.minecraft.client.Minecraft mc = net.minecraft.client.Minecraft.getMinecraft();
+        if (mc == null || mc.currentScreen != null) return;
         boolean suspend = Config.crosshairSelection == CompatMode.FORCE_OURS || shouldDrive();
         if (!suspend) return;
         try {
@@ -195,6 +201,19 @@ public final class CrosshairSelectionCompat {
             }
         } catch (Throwable t) {
             warn("Failed to suspend Crosshair-Selection: " + t);
+        }
+    }
+
+    public static void emergencyRestore() {
+        if (suspendedOriginal == null) return;
+        try {
+            if (enabledField != null) enabledField.setBoolean(null, suspendedOriginal);
+            if (suspendedDot != null && dotField != null) dotField.setBoolean(null, suspendedDot);
+        } catch (Throwable ignored) {
+            // best effort during shutdown
+        } finally {
+            suspendedOriginal = null;
+            suspendedDot = null;
         }
     }
 
