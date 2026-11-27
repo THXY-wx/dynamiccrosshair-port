@@ -89,6 +89,7 @@ public class GuiDynamicCrosshairConfig extends GuiScreen {
                 styleRow(right, top + 3 * step, "Interact", () -> Config.interactStyle);
                 styleRow(right, top + 4 * step, "Correct tool", () -> Config.modifierCorrect);
                 styleRow(right, top + 5 * step, "Wrong tool", () -> Config.modifierIncorrect);
+        colourRow(left, top + 6 * step, "Weak tool colour", () -> Config.modifierWeak);
                 break;
             case 3:
                 addRow(left, top + 0 * step, "Bobbing", () -> onOff(Config.bobbingEnabled), () -> Config.bobbingEnabled = !Config.bobbingEnabled);
@@ -156,6 +157,20 @@ public class GuiDynamicCrosshairConfig extends GuiScreen {
         buttonList.add(shape);
         buttonList.add(colour);
         buttonList.add(scale);
+    }
+
+    private void colourRow(int x, int y, String label, java.util.function.Supplier<StyleSetting> supplier) {
+        if (y + 20 > height - 32) return;
+        GuiRow row = new GuiRow(nextId++, x, y, 150, 18, Lang.t(label), () -> "", () -> {
+            StyleSetting setting = supplier.get();
+            int index = 0;
+            for (int i = 0; i < COLOURS.length; i++) if (COLOURS[i] == setting.color) index = i;
+            setting.color = COLOURS[(index + 1) % COLOURS.length];
+        });
+        row.colourSwatch = () -> supplier.get().color;
+        row.smallSwatch = true;
+        rows.add(row);
+        buttonList.add(row);
     }
 
     private static String onOff(boolean value) {
@@ -230,6 +245,7 @@ public class GuiDynamicCrosshairConfig extends GuiScreen {
         private final Supplier<String> value;
         private final Runnable action;
         public boolean readOnly;
+        public boolean smallSwatch;
         public Supplier<Integer> colourSwatch;
 
         public GuiRow(int id, int x, int y, int width, int height, String label, Supplier<String> value, Runnable action) {
@@ -249,7 +265,7 @@ public class GuiDynamicCrosshairConfig extends GuiScreen {
             drawRect(xPosition, yPosition, xPosition + width, yPosition + 1, 0xFF555555);
             drawRect(xPosition, yPosition + height - 1, xPosition + width, yPosition + height, 0xFF555555);
             int textY = yPosition + (height - 8) / 2;
-            if (colourSwatch != null) {
+            if (colourSwatch != null && !smallSwatch) {
                 int colour = colourSwatch.get();
                 drawRect(xPosition + 2, yPosition + 2, xPosition + width - 2, yPosition + height - 2, colour | 0xFF000000);
             } else if (!label.isEmpty()) {
@@ -257,8 +273,31 @@ public class GuiDynamicCrosshairConfig extends GuiScreen {
             }
             String text = value.get();
             if (text != null && !text.isEmpty()) {
-                mc.fontRenderer.drawString(text, xPosition + width - 3 - mc.fontRenderer.getStringWidth(text), textY, 0xFFFF55);
+                int available = width - 6;
+                int valueWidth = mc.fontRenderer.getStringWidth(text);
+                if (valueWidth > available / 2 && !label.isEmpty()) {
+                    text = trim(mc, text, available / 2);
+                    valueWidth = mc.fontRenderer.getStringWidth(text);
+                }
+                if (!label.isEmpty()) {
+                    int labelMax = Math.max(0, available - valueWidth - 4);
+                    String shown = trim(mc, label, labelMax);
+                    drawRect(xPosition + 1, textY - 1, xPosition + width - 1, textY + 9, background);
+                    mc.fontRenderer.drawString(shown, xPosition + 3, textY, 0xFFFFFF);
+                }
+                mc.fontRenderer.drawString(text, xPosition + width - 3 - valueWidth, textY, 0xFFFF55);
             }
+            if (smallSwatch && colourSwatch != null) {
+                drawRect(xPosition + width - 16, yPosition + 3, xPosition + width - 4, yPosition + height - 3,
+                        colourSwatch.get() | 0xFF000000);
+            }
+        }
+
+        private static String trim(Minecraft mc, String text, int maxWidth) {
+            if (maxWidth <= 0) return "";
+            if (mc.fontRenderer.getStringWidth(text) <= maxWidth) return text;
+            String cut = mc.fontRenderer.trimStringToWidth(text, Math.max(0, maxWidth - 6));
+            return cut + "...";
         }
 
         @Override

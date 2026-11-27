@@ -54,6 +54,7 @@ public final class Lang {
         put("Waila tool dot", "Waila 工具点");
         put("TiC weapons", "匠魂武器");
         put("Weak tool dot", "工具不匹配点");
+        put("Weak tool colour", "黄点颜色");
         put("Modded tools", "模组工具");
         put("Block overrides", "方块覆盖");
         put("Item overrides", "物品覆盖");
