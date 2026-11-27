@@ -1,6 +1,6 @@
 # Third-party notices
 
-This project is a 1.7.10 / GT New Horizons 2.9.0 port that merges the behaviour of three upstream
+This project is a 1.7.10 / GT New Horizons 2.9 port that merges the behaviour of three upstream
 projects. It is distributed under the GNU General Public License v3.0 (see LICENSE), because
 CrosshairBobbing is GPL-3.0 and the combined work must be GPL-3.0.
 
@@ -8,7 +8,7 @@ CrosshairBobbing is GPL-3.0 and the combined work must be GPL-3.0.
 
 - Upstream: https://github.com/Crendgrim/DynamicCrosshair
 - Author: Crendgrim
-- License: GNU Lesser General Public License v3.0 (see LICENSE-DynamicCrosshair-LGPL-3.0)
+- License: GNU Lesser General Public License v3.0 (upstream)
 - Used for: context classification model, crosshair style set, configuration layout, public API
   concepts, and the 15x15 crosshair sprites in
   `assets/dynamiccrosshair/textures/gui/crosshair/`.
