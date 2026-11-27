@@ -84,7 +84,7 @@ public final class CrosshairSdfRenderer {
             + "  if (uShape == 8) return abs(sdRoundBox(p, vec2(6.0), 2.6)) - uHalf;\n"
             + "  if (uShape == 9) { vec2 q = vec2(p.x + p.y, p.y - p.x) * 0.70710678; return abs(sdRoundBox(q, vec2(5.5), 1.6)) - uHalf; }\n"
             + "  if (uShape == 10) { vec2 q = vec2(p.x + p.y, p.y - p.x) * 0.70710678; return abs(sdRoundBox(q, vec2(7.0), 2.0)) - uHalf; }\n"
-            + "  if (uShape == 11) return bracketRound(p, 7.4, 3.0, 3.0, uHalf);\n"
+            + "  if (uShape == 11) return bracketCorner(abs(p), 7.4, 3.0, uHalf);\n"
             + "  if (uShape == 12) return bracketRound(p, 7.4, 3.0, 3.0, uHalf);\n"
             + "  if (uShape == 13) return max(bracketRound(p, 7.4, 3.0, 2.8, uHalf), p.y);\n"
             + "  if (uShape == 14) return max(bracketRound(p, 7.4, 3.0, 2.8, uHalf), -p.y);\n"

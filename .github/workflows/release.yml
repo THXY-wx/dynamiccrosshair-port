@@ -48,19 +48,26 @@ jobs:
       - name: Build
         run: |
           chmod +x gradlew
-          ./gradlew clean build --no-daemon --stacktrace
+          ./gradlew clean build apiJar --no-daemon --stacktrace
 
-      - name: Collect release jar
+      - name: Collect release jars
         shell: bash
         run: |
           mkdir -p dist
-          jar="build/libs/DynamicCrosshair-1.7.10-$VERSION.jar"
-          if [ ! -f "$jar" ]; then
-            echo "::error::expected release jar not found: $jar"
+          prefix="DynamicCrosshair-1.7.10-$VERSION"
+          main="build/libs/${prefix}.jar"
+          if [ ! -f "$main" ]; then
+            echo "::error::expected release jar not found: $main"
             ls -l build/libs
             exit 1
           fi
-          cp "$jar" dist/
+          # Attach every artifact of *this* version: main, api, dev, sources.
+          for suffix in "" "-api" "-dev" "-sources"; do
+            file="build/libs/${prefix}${suffix}.jar"
+            if [ -f "$file" ]; then
+              cp "$file" dist/
+            fi
+          done
           ls -lh dist
 
       - name: Upload build artifact
